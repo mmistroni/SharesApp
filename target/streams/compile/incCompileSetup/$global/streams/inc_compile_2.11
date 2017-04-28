@@ -1,0 +1,814 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> C:\Users\marco\SharesApp\target\scala-2.11\classes
+compile options:
+1 items
+0 -> -target:jvm-1.7
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+65 items
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\MasterActor$$anonfun$receive$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\MasterActor.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\FetchShares$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\FetchShares.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\FetchStaticNews$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\FetchStaticNews.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\Shutdown$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\Shutdown.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\Start$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\Start.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\URLMessage$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\URLMessage.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\MarketIndicator$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\MarketIndicator.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\NewsItem$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\NewsItem.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\Portfolio$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\Portfolio.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\RssFeed$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\RssFeed.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\Share$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\Share.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\SharePrice$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\SharePrice.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\TradingNotes$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\TradingNotes.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\Volatility$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\Volatility.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\BaseDbService.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$anon$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$anon$2.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$anon$3.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$anon$4.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$typecreator1$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$typecreator2$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$typecreator3$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$typecreator4$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent$Db$$typecreator1$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent$Db$$typecreator2$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent$Db$$typecreator3$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent$Db$$typecreator4$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent$Db$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent$class.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbConfigComponent$Config.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbConfigComponent$class.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbConfigComponent.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\SampleDbApp$$anonfun$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\SampleDbApp$$typecreator1$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\SampleDbApp$.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\SampleDbApp$delayedInit$body.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\SampleDbApp.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\ShareDbService$$typecreator1$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\ShareDbService$$typecreator2$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\ShareDbService$class.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\ShareDbService.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\services\DataDownloaderComponent$DataDownloader$$anonfun$downloadCSV$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\services\DataDownloaderComponent$DataDownloader$$anonfun$downloadFromURL$1.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\services\DataDownloaderComponent$DataDownloader.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\services\DataDownloaderComponent$class.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\services\DataDownloaderComponent.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\util\LogHelper$class.class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\util\LogHelper.class
+binary dependencies:
+36 items
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> C:\Users\marco\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.3.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\Users\marco\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.1.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> C:\Users\marco\.ivy2\cache\org.sorm-framework\sorm\jars\sorm-0.3.21.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\.ivy2\cache\org.sorm-framework\sorm\jars\sorm-0.3.21.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\Users\marco\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\Users\marco\.ivy2\cache\org.sorm-framework\sorm\jars\sorm-0.3.21.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> C:\Users\marco\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> C:\Users\marco\.ivy2\cache\org.sorm-framework\sorm\jars\sorm-0.3.21.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> C:\Users\marco\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> C:\Users\marco\.ivy2\cache\org.sorm-framework\sorm\jars\sorm-0.3.21.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> C:\Users\marco\.ivy2\cache\com.github.tototoshi\scala-csv_2.11\jars\scala-csv_2.11-1.3.3.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> C:\Users\marco\.ivy2\cache\org.clapper\grizzled-slf4j_2.11\jars\grizzled-slf4j_2.11-1.0.2.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> C:\Users\marco\.ivy2\cache\org.clapper\grizzled-slf4j_2.11\jars\grizzled-slf4j_2.11-1.0.2.jar
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+10 items
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+2 items
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala
+inheritance external dependencies:
+0 items
+class names:
+65 items
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> com.mm.sharesapp.actors.MasterActor
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> com.mm.sharesapp.actors.MasterActor$$anonfun$receive$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> com.mm.sharesapp.actors.FetchShares
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> com.mm.sharesapp.actors.FetchShares$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> com.mm.sharesapp.actors.FetchStaticNews
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> com.mm.sharesapp.actors.FetchStaticNews$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> com.mm.sharesapp.actors.Shutdown
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> com.mm.sharesapp.actors.Shutdown$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> com.mm.sharesapp.actors.Start
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> com.mm.sharesapp.actors.Start$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> com.mm.sharesapp.actors.URLMessage
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> com.mm.sharesapp.actors.URLMessage$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.MarketIndicator
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.MarketIndicator$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.NewsItem
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.NewsItem$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.Portfolio
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.Portfolio$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.RssFeed
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.RssFeed$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.Share
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.Share$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.SharePrice
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.SharePrice$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.TradingNotes
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.TradingNotes$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.Volatility
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com.mm.sharesapp.entities.Volatility$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> com.mm.sharesapp.persistence.BaseDbService
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> com.mm.sharesapp.persistence.Db
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> com.mm.sharesapp.persistence.Db$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> com.mm.sharesapp.persistence.Db$$anon$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> com.mm.sharesapp.persistence.Db$$anon$2
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> com.mm.sharesapp.persistence.Db$$anon$3
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> com.mm.sharesapp.persistence.Db$$anon$4
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> com.mm.sharesapp.persistence.Db$$typecreator1$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> com.mm.sharesapp.persistence.Db$$typecreator2$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> com.mm.sharesapp.persistence.Db$$typecreator3$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> com.mm.sharesapp.persistence.Db$$typecreator4$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> com.mm.sharesapp.persistence.DbComponent
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> com.mm.sharesapp.persistence.DbComponent$Db$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> com.mm.sharesapp.persistence.DbComponent$Db$$typecreator1$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> com.mm.sharesapp.persistence.DbComponent$Db$$typecreator2$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> com.mm.sharesapp.persistence.DbComponent$Db$$typecreator3$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> com.mm.sharesapp.persistence.DbComponent$Db$$typecreator4$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> com.mm.sharesapp.persistence.DbComponent$class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> com.mm.sharesapp.persistence.DbConfigComponent
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> com.mm.sharesapp.persistence.DbConfigComponent$Config
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> com.mm.sharesapp.persistence.DbConfigComponent$class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> com.mm.sharesapp.persistence.SampleDbApp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> com.mm.sharesapp.persistence.SampleDbApp$
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> com.mm.sharesapp.persistence.SampleDbApp$$anonfun$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> com.mm.sharesapp.persistence.SampleDbApp$$typecreator1$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> com.mm.sharesapp.persistence.SampleDbApp$delayedInit$body
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> com.mm.sharesapp.persistence.ShareDbService
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> com.mm.sharesapp.persistence.ShareDbService$$typecreator1$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> com.mm.sharesapp.persistence.ShareDbService$$typecreator2$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> com.mm.sharesapp.persistence.ShareDbService$class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> com.mm.sharesapp.services.DataDownloaderComponent
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> com.mm.sharesapp.services.DataDownloaderComponent$DataDownloader
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> com.mm.sharesapp.services.DataDownloaderComponent$DataDownloader$$anonfun$downloadCSV$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> com.mm.sharesapp.services.DataDownloaderComponent$DataDownloader$$anonfun$downloadFromURL$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> com.mm.sharesapp.services.DataDownloaderComponent$class
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> com.mm.sharesapp.util.LogHelper
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> com.mm.sharesapp.util.LogHelper$class
+used names:
+438 items
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> !
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> <init>
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> ==
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> A1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> Actor
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> ActorRef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> B1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> Escalate
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> FetchShares
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> FetchStaticNews
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> Function1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> LogSource
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> Logging
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> MasterActor
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> Restart
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> Resume
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> Start
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> StringContext
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> SupervisorStrategy
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> actor
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> actorRef2Scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> actors
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> akka
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> apply
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> asInstanceOf
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> com
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> context
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> event
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> fromActor
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> info
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> log
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> mm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> package
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> router
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> s
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> self
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> sharesapp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> system
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> unchecked
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> &&
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> <init>
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> ==
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> AbstractFunction1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> FetchShares
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> FetchStaticNews
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> None
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> Predef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> Product
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> ScalaRunTime
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> Serializable
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> Shutdown
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> Start
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> String
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> URLMessage
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> _hashCode
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> _toString
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> actors
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> asInstanceOf
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> com
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> eq
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> isInstanceOf
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> mm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> runtime
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> sharesapp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> toString
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> typedProductIterator
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> url
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> ||
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> &&
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> <init>
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> ==
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> AbstractFunction3
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> AbstractFunction4
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> AbstractFunction6
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> AbstractFunction8
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> AbstractFunction9
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> Double
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> LocalDate
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> Long
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> MarketIndicator
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> NewsItem
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> None
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> Portfolio
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> Predef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> Product
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> RssFeed
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> ScalaRunTime
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> Serializable
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> Share
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> SharePrice
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> Statics
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> String
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> TradingNotes
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> Volatility
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> _hashCode
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> _toString
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> anyHash
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> asInstanceOf
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> asOfDate
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> cash
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> cik
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> com
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> content
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> createdBy
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> creationDate
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> description
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> doubleHash
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> entities
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> eps
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> eq
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> feedUrl
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> finalizeHash
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> fwdEps
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> industry
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> isInstanceOf
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> joda
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> latestPrice
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> link
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> longHash
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> marketCap
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> marketKey
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> mean
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> mix
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> mm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> mvAvg
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> mvAvg50
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> name
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> note
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> noteId
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> org
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> peg
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> portfolio
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> portfolioId
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> price
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> property
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> publishedDate
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> qty
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> runtime
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> sector
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> sharesapp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> ticker
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> time
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> title
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> toString
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> token
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> typedProductIterator
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> valuationDate
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> value
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> volatility
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> ||
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> AnyRef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> Boolean
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> Instance
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> Seq
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> T
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> com
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> mm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> package
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> persistence
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> sharesapp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> sorm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> $anon
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> $m
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> $m$untyped
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> $typecreator1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> $typecreator2
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> $typecreator3
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> $typecreator4
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> $u
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> <init>
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> AnyRef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> Create
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> Db
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> Entity
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> InitMode
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> Instance
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> Mirror
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> NewsItem
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> Nothing
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> Portfolio
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> Predef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> RssFeed
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> Set
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> SharePrice
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> Singleton
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> Type
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> TypeCreator
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> TypeTag
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> U
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> Universe
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> apply
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> asInstanceOf
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> asType
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> com
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> entities
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> getClass
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> getClassLoader
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> materializeTypeTag
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> mm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> package
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> persistence
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> reflect
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> runtime
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> runtimeMirror
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> sharesapp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> sorm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> staticClass
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> toTypeConstructor
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> universe
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> x$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> x$2
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> x$3
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> x$4
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> x$5
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> x$6
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> x$7
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> $m
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> $m$untyped
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> $typecreator1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> $typecreator2
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> $typecreator3
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> $typecreator4
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> $u
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> <init>
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> AnyRef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> Create
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> Db
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> DbComponent
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> DbConfigComponent
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> Entity
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> InitMode
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> Instance
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> Mirror
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> NewsItem
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> Nothing
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> Portfolio
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> Predef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> RssFeed
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> Set
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> SharePrice
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> Singleton
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> Type
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> TypeCreator
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> TypeTag
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> U
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> Universe
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> apply
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> asInstanceOf
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> asType
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> com
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> config
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> db
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> dbUrl
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> entities
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> getClassLoader
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> materializeTypeTag
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> mm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> package
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> password
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> persistence
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> reflect
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> runtime
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> runtimeMirror
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> sharesapp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> sorm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> staticClass
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> toTypeConstructor
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> universe
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> username
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> x$1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> x$2
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> x$3
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> x$4
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> x$5
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> x$6
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> x$7
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> AnyRef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> Config
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> DbConfigComponent
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> Predef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> String
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> com
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> mm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> persistence
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> sharesapp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> $m
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> $m$untyped
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> $typecreator1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> $u
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> <init>
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> App
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> Db
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> Mirror
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> Nothing
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> Portfolio
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> Predef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> SampleDbApp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> Singleton
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> Stream
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> Type
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> TypeCreator
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> TypeTag
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> U
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> Universe
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> allPtf
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> apply
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> asInstanceOf
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> asType
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> canBuildFrom
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> cash
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> com
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> entities
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> fetch
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> getClass
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> getClassLoader
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> immutable
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> map
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> materializeTypeTag
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> mkString
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> mm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> package
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> persistence
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> portfolioId
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> println
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> ptf
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> query
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> reflect
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> runtime
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> runtimeMirror
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> sharesapp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> staticClass
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> toTypeConstructor
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> universe
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> $m
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> $m$untyped
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> $typecreator1
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> $typecreator2
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> $u
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> <init>
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> BaseDbService
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> Boolean
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> DbComponent
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> Mirror
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> Nothing
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> Seq
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> ShareDbService
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> SharePrice
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> Singleton
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> Type
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> TypeCreator
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> TypeTag
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> U
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> Universe
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> apply
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> asInstanceOf
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> asType
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> com
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> db
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> entities
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> fetch
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> getClassLoader
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> item
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> materializeTypeTag
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> mm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> package
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> persistence
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> query
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> reflect
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> runtime
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> runtimeMirror
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> save
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> sharesapp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> staticClass
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> toTypeConstructor
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> universe
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> +
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> <init>
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> AnyRef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> BufferedSource
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> CSVReader
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> Codec
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> DataDownloader
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> DataDownloaderComponent
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> Iterator
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> List
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> LogHelper
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> Predef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> Source
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> String
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> StringContext
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> _getFromCSVReader
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> _getFromUrl
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> all
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> com
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> csv
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> dataDownloader
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> debug
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> defaultCSVFormat
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> fallbackSystemCodec
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> fromURL
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> getLines
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> github
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> info
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> io
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> logger
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> mm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> open
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> package
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> s
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> services
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> sharesapp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> tototoshi
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> url
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> util
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> AnyRef
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> LogHelper
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> Logger
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> apply
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> com
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> getClass
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> getName
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> grizzled
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> loggerName
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> mm
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> scala
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> sharesapp
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> slf4j
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> util
+product stamps:
+65 items
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\FetchShares$.class -> lastModified(1493067099875)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\FetchShares.class -> lastModified(1493067099590)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\FetchStaticNews$.class -> lastModified(1493067099989)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\FetchStaticNews.class -> lastModified(1493067099904)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\MasterActor$$anonfun$receive$1.class -> lastModified(1493067100271)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\MasterActor.class -> lastModified(1493067100203)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\Shutdown$.class -> lastModified(1493067100467)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\Shutdown.class -> lastModified(1493067100431)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\Start$.class -> lastModified(1493067100566)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\Start.class -> lastModified(1493067100491)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\URLMessage$.class -> lastModified(1493067100768)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\actors\URLMessage.class -> lastModified(1493067100680)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\MarketIndicator$.class -> lastModified(1493067100834)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\MarketIndicator.class -> lastModified(1493067101080)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\NewsItem$.class -> lastModified(1493067101304)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\NewsItem.class -> lastModified(1493067101388)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\Portfolio$.class -> lastModified(1493067101503)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\Portfolio.class -> lastModified(1493067101468)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\RssFeed$.class -> lastModified(1493067101522)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\RssFeed.class -> lastModified(1493067101596)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\Share$.class -> lastModified(1493067101703)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\Share.class -> lastModified(1493067101687)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\SharePrice$.class -> lastModified(1493067101806)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\SharePrice.class -> lastModified(1493067101781)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\TradingNotes$.class -> lastModified(1493067101864)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\TradingNotes.class -> lastModified(1493067101849)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\Volatility$.class -> lastModified(1493067101900)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\entities\Volatility.class -> lastModified(1493067101978)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\BaseDbService.class -> lastModified(1493067101999)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$anon$1.class -> lastModified(1493067102092)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$anon$2.class -> lastModified(1493067102099)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$anon$3.class -> lastModified(1493067102111)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$anon$4.class -> lastModified(1493067102118)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$typecreator1$1.class -> lastModified(1493067102131)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$typecreator2$1.class -> lastModified(1493067102141)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$typecreator3$1.class -> lastModified(1493067102157)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$$typecreator4$1.class -> lastModified(1493067102166)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db$.class -> lastModified(1493067102084)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\Db.class -> lastModified(1493067102053)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent$class.class -> lastModified(1493067102277)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent$Db$$typecreator1$1.class -> lastModified(1493067102229)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent$Db$$typecreator2$1.class -> lastModified(1493067102239)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent$Db$$typecreator3$1.class -> lastModified(1493067102258)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent$Db$$typecreator4$1.class -> lastModified(1493067102269)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent$Db$.class -> lastModified(1493067102209)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbComponent.class -> lastModified(1493067102175)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbConfigComponent$class.class -> lastModified(1493067102308)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbConfigComponent$Config.class -> lastModified(1493067102301)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\DbConfigComponent.class -> lastModified(1493067102284)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\SampleDbApp$$anonfun$1.class -> lastModified(1493067102492)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\SampleDbApp$$typecreator1$1.class -> lastModified(1493067102503)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\SampleDbApp$.class -> lastModified(1493067102475)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\SampleDbApp$delayedInit$body.class -> lastModified(1493067102614)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\SampleDbApp.class -> lastModified(1493067102321)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\ShareDbService$$typecreator1$1.class -> lastModified(1493067102651)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\ShareDbService$$typecreator2$1.class -> lastModified(1493067102667)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\ShareDbService$class.class -> lastModified(1493067102690)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\persistence\ShareDbService.class -> lastModified(1493067102624)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\services\DataDownloaderComponent$class.class -> lastModified(1493067102851)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\services\DataDownloaderComponent$DataDownloader$$anonfun$downloadCSV$1.class -> lastModified(1493067102791)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\services\DataDownloaderComponent$DataDownloader$$anonfun$downloadFromURL$1.class -> lastModified(1493067102836)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\services\DataDownloaderComponent$DataDownloader.class -> lastModified(1493067102778)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\services\DataDownloaderComponent.class -> lastModified(1493067102707)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\util\LogHelper$class.class -> lastModified(1493067102886)
+C:\Users\marco\SharesApp\target\scala-2.11\classes\com\mm\sharesapp\util\LogHelper.class -> lastModified(1493067102867)
+source stamps:
+11 items
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> hash(518bb140ea34dd8f7e587d7269e9820dd8206c58)
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> hash(abb7667595b11227d67964ac954e15f87296caab)
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> hash(6f3fd9613a1b71acf0c77a7ac637c3ea8a1069e0)
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> hash(1eba4efe586bdfde132ed5dcdec707a21e515b79)
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> hash(b850537869252facbce296b3de25fe079331868c)
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> hash(62f28b56bfa7a3e6635a176a12d986e2920aac0a)
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> hash(863f41f97b79135be5432dd931a5e420c6924ad3)
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> hash(67ae09f143f49ac211ae33d12fbc91d144f2fea6)
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> hash(521c13d807be3f11e8fab0ecb9991c538dd06521)
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> hash(9056f1bfe7d6ad62536bbaed72455fc7e446370d)
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> hash(bec077b8a53fb600d3625f9087e847f2a98a1e24)
+binary stamps:
+8 items
+C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar -> lastModified(1461347981000)
+C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar -> lastModified(1432933041994)
+C:\Users\marco\.ivy2\cache\com.github.tototoshi\scala-csv_2.11\jars\scala-csv_2.11-1.3.3.jar -> lastModified(1466696174000)
+C:\Users\marco\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.3.jar -> lastModified(1400613150000)
+C:\Users\marco\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.1.jar -> lastModified(1329927757000)
+C:\Users\marco\.ivy2\cache\org.clapper\grizzled-slf4j_2.11\jars\grizzled-slf4j_2.11-1.0.2.jar -> lastModified(1398608830000)
+C:\Users\marco\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar -> lastModified(1457105200000)
+C:\Users\marco\.ivy2\cache\org.sorm-framework\sorm\jars\sorm-0.3.21.jar -> lastModified(1476957061000)
+class names:
+8 items
+C:\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.5\jars\scala-library.jar -> scala.Unit
+C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar -> java.lang.Object
+C:\Users\marco\.ivy2\cache\com.github.tototoshi\scala-csv_2.11\jars\scala-csv_2.11-1.3.3.jar -> com.github.tototoshi.csv.package$
+C:\Users\marco\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.3.jar -> akka.actor.Actor
+C:\Users\marco\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.1.jar -> org.joda.time.LocalDate
+C:\Users\marco\.ivy2\cache\org.clapper\grizzled-slf4j_2.11\jars\grizzled-slf4j_2.11-1.0.2.jar -> grizzled.slf4j.Logger$
+C:\Users\marco\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar -> scala.reflect.api.TypeCreator
+C:\Users\marco\.ivy2\cache\org.sorm-framework\sorm\jars\sorm-0.3.21.jar -> sorm.Querier
+internal apis:
+11 items
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDMVrWeAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwm5WjMHQABHNlbGZzcQB+AAtkgi5CdAAHY29udGV4dHVxAH4ACQAAACRzcQB+AAuf/lg6dAAGbm90aWZ5c3EAfgAL7X1DrnQAB1JlY2VpdmVzcQB+AAtZw+gUdAAEd2FpdHNxAH4ACza8/P90AA0kYXNJbnN0YW5jZU9mc3EAfgALmbElwHQABmVxdWFsc3NxAH4ACwqtb4h0AAxhc0luc3RhbmNlT2ZzcQB+AAu5bD3rdAAMc3luY2hyb25pemVkc3EAfgALM0Qv1XQADSRpc0luc3RhbmNlT2ZzcQB+AAuDhfUQdAAHcmVjZWl2ZXNxAH4AC48fvtF0AApwcmVSZXN0YXJ0c3EAfgALq9fNSXQADWFyb3VuZFJlY2VpdmVzcQB+AAtZdg2JdAALcG9zdFJlc3RhcnRzcQB+AAtMHY2pdAAIcG9zdFN0b3BzcQB+AAuB2zDadAALTWFzdGVyQWN0b3JzcQB+AAuzWFp3dAAJbm90aWZ5QWxsc3EAfgALl0O6hHQAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgALppvehnQADGlzSW5zdGFuY2VPZnNxAH4AC6vO/fd0ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALYlzb4nQADmFyb3VuZFBvc3RTdG9wc3EAfgALivGubnQABjxpbml0PnNxAH4ACzYWaDt0AAhwcmVTdGFydHNxAH4AC7YN2vV0AAl1bmhhbmRsZWRzcQB+AAv/3pecdAACPT1zcQB+AAsnaIA1dAAFY2xvbmVzcQB+AAtw+J1sdAAGc2VuZGVyc3EAfgALAVlRnnQACHRvU3RyaW5nc3EAfgALuzA90nQAAiE9c3EAfgALP5v3LHQACGdldENsYXNzc3EAfgALRXToOXQAAm5lc3EAfgALD78AjnQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC/1ySwx0AAJlcXNxAH4AC2q1qk10AANsb2dzcQB+AAvZmWctdAACIyNzcQB+AAskXT1ydAAIZmluYWxpemVzcQB+AAurUl91dAAIaGFzaENvZGVzcQB+AAtVxP69dAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBjeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAjY29tLm1tLnNoYXJlc2FwcC5hY3RvcnMuTWFzdGVyQWN0b3J1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AHx4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHsAcHNxAH4AgHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBjTAAJaW5oZXJpdGVkcQB+AGNMAAdwYXJlbnRzcQB+AGN4cQB+AIRzcQB+AHsAcHNxAH4AgHVxAH4AXgAAAABzcQB+AHsAcHNxAH4AgHVxAH4AXgAAAABzcQB+AHsAcHNxAH4AgHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ag3QABUFjdG9yc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCDc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARha2thc3EAfgCgdAAFYWN0b3JzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AoXNxAH4AlHQABk9iamVjdHNxAH4AmHNxAH4Am3VxAH4AngAAAANzcQB+AKB0AARqYXZhc3EAfgCgdAAEbGFuZ3EAfgCnc3EAfgCUdAADQW55c3EAfgCYc3EAfgCbdXEAfgCeAAAAAnNxAH4AoHQABXNjYWxhcQB+AKd1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0ABBjb20ubW0uc2hhcmVzYXBwc3EAfgC6dAADY29tc3EAfgC6dAAGY29tLm1tc3EAfgC6dAAXY29tLm1tLnNoYXJlc2FwcC5hY3RvcnNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVuhu4FjdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAMkM6XFVzZXJzXG1hcmNvXFNoYXJlc0FwcFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUUYuxQOo03Y9+WH1yaemCDdggbFg=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD/SbviAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAInNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cGP2Kcl0AAZub3RpZnlzcQB+AAyQut4cdAAIU2h1dGRvd25zcQB+AAytoTdHdAAEd2FpdHNxAH4ADAIjwoN0AA0kYXNJbnN0YW5jZU9mc3EAfgAMowYfr3QADHByb2R1Y3RBcml0eXNxAH4ADEXNUed0AAN1cmxzcQB+AAxf3B/rdAAGZXF1YWxzc3EAfgAMlguEEXQADGFzSW5zdGFuY2VPZnNxAH4ADA9PMEd0AAxzeW5jaHJvbml6ZWRzcQB+AAyBYcL4dAAKVVJMTWVzc2FnZXNxAH4ADHVz4Ih0AA0kaXNJbnN0YW5jZU9mc3EAfgAMdVn77nQACGNhbkVxdWFsc3EAfgAM3CJnJ3QABVN0YXJ0c3EAfgAMSCbZh3QADXByb2R1Y3RQcmVmaXhzcQB+AAwGKmxmdAAJbm90aWZ5QWxsc3EAfgAM+2NQQHQAC3JlYWRSZXNvbHZlc3EAfgAMxPkxF3QADGlzSW5zdGFuY2VPZnNxAH4ADKUMM7V0AAY8aW5pdD5zcQB+AAyStwwmdAALRmV0Y2hTaGFyZXNzcQB+AAxYD9q0dAAPRmV0Y2hTdGF0aWNOZXdzc3EAfgAM3C2At3QAAj09c3EAfgAMnuc8WXQABWNsb25lc3EAfgAMcHzfeXQABGNvcHlzcQB+AAw6WsckdAAIdG9TdHJpbmdzcQB+AAyJJ0yNdAACIT1zcQB+AAzMnpwkdAAIZ2V0Q2xhc3NzcQB+AAxN6sHBdAAOY29weSRkZWZhdWx0JDFzcQB+AAzPu2RidAACbmVzcQB+AAwRXgYudAACZXFzcQB+AAwezlhPdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMDZ5z/XQAAiMjc3EAfgAMnnSDWnQACGZpbmFsaXplc3EAfgAMWHoJAHQADnByb2R1Y3RFbGVtZW50c3EAfgAMs91DKXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AW3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAHWNvbS5tbS5zaGFyZXNhcHAuYWN0b3JzLlN0YXJ0dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AdHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcwBwc3EAfgB4c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFtMAAlpbmhlcml0ZWRxAH4AW0wAB3BhcmVudHNxAH4AW3hxAH4AfHNxAH4AcwBwc3EAfgB4dXEAfgBWAAAAAHNxAH4AcwBwc3EAfgB4dXEAfgBWAAAAAHNxAH4AcwBwc3EAfgB4dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB7dAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB7c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCZc3EAfgCMcQB+AI9zcQB+AJBzcQB+AJN1cQB+AJYAAAADc3EAfgCYdAAEamF2YXNxAH4AmHQAAmlvcQB+AJ1zcQB+AIx0AAdQcm9kdWN0cQB+AJJzcQB+AIx0AAZFcXVhbHNxAH4AknNxAH4AjHQABk9iamVjdHNxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJhxAH4Ao3NxAH4AmHQABGxhbmdxAH4AnXNxAH4AjHQAA0FueXEAfgCSc3EAfgBYcQB+AGV1cQB+AGYAAAAAc3EAfgBoAHQAIGNvbS5tbS5zaGFyZXNhcHAuYWN0b3JzLlNodXRkb3dudXEAfgBrAAAAAHEAfgBvdXEAfgBxAAAAAHNxAH4AcwBwc3EAfgB4cQB+AH1zcQB+AHMAcHNxAH4AeHNxAH4AgHNxAH4AcwBwc3EAfgB4dXEAfgBWAAAAAHNxAH4AcwBwc3EAfgB4dXEAfgBWAAAAAHNxAH4AcwBwc3EAfgB4dXEAfgCKAAAABnNxAH4AjHEAfgCPc3EAfgCQc3EAfgCTdXEAfgCWAAAAAnNxAH4AmHEAfgCbcQB+AJ1zcQB+AIxxAH4Aj3NxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJhxAH4Ao3NxAH4AmHQAAmlvcQB+AJ1zcQB+AIxxAH4Ap3EAfgDJc3EAfgCMdAAGRXF1YWxzcQB+AMlzcQB+AIxxAH4Aq3NxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJhxAH4Ao3NxAH4AmHEAfgCxcQB+AJ1zcQB+AIxxAH4As3EAfgDJc3EAfgBYcQB+AGV1cQB+AGYAAAAAc3EAfgBoAHQAI2NvbS5tbS5zaGFyZXNhcHAuYWN0b3JzLkZldGNoU2hhcmVzdXEAfgBrAAAAAHEAfgBvdXEAfgBxAAAAAHNxAH4AcwBwc3EAfgB4cQB+AH1zcQB+AHMAcHNxAH4AeHNxAH4AgHNxAH4AcwBwc3EAfgB4dXEAfgBWAAAAAHNxAH4AcwBwc3EAfgB4dXEAfgBWAAAAAHNxAH4AcwBwc3EAfgB4dXEAfgCKAAAABnNxAH4AjHEAfgCPc3EAfgCQc3EAfgCTdXEAfgCWAAAAAnNxAH4AmHEAfgCbcQB+AJ1zcQB+AIxxAH4Aj3NxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJhxAH4Ao3NxAH4AmHQAAmlvcQB+AJ1zcQB+AIxxAH4Ap3EAfgDzc3EAfgCMdAAGRXF1YWxzcQB+APNzcQB+AIxxAH4Aq3NxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJhxAH4Ao3NxAH4AmHEAfgCxcQB+AJ1zcQB+AIxxAH4As3EAfgDzc3EAfgBYcQB+AGV1cQB+AGYAAAAAc3EAfgBoAHQAJ2NvbS5tbS5zaGFyZXNhcHAuYWN0b3JzLkZldGNoU3RhdGljTmV3c3VxAH4AawAAAABxAH4Ab3VxAH4AcQAAAABzcQB+AHMAcHNxAH4AeHEAfgB9c3EAfgBzAHBzcQB+AHhzcQB+AIBzcQB+AHMAcHNxAH4AeHVxAH4AVgAAAABzcQB+AHMAcHNxAH4AeHVxAH4AVgAAAABzcQB+AHMAcHNxAH4AeHVxAH4AigAAAAZzcQB+AIxxAH4Aj3NxAH4AkHNxAH4Ak3VxAH4AlgAAAAJzcQB+AJhxAH4Am3EAfgCdc3EAfgCMcQB+AI9zcQB+AJBzcQB+AJN1cQB+AJYAAAADc3EAfgCYcQB+AKNzcQB+AJh0AAJpb3EAfgCdc3EAfgCMcQB+AKdxAH4BHXNxAH4AjHQABkVxdWFsc3EAfgEdc3EAfgCMcQB+AKtzcQB+AJBzcQB+AJN1cQB+AJYAAAADc3EAfgCYcQB+AKNzcQB+AJhxAH4AsXEAfgCdc3EAfgCMcQB+ALNxAH4BHXNxAH4AWHEAfgBldXEAfgBmAAAAAHNxAH4AaAB0ACJjb20ubW0uc2hhcmVzYXBwLmFjdG9ycy5VUkxNZXNzYWdldXEAfgBrAAAAAH5xAH4AbXQACENsYXNzRGVmdXEAfgBxAAAAAHNxAH4AcwBwc3EAfgB4cQB+AH1zcQB+AHMAcHNxAH4AeHNxAH4AgHNxAH4AcwBwc3EAfgB4dXEAfgBWAAAAAHNxAH4AcwBwc3EAfgB4dXEAfgBWAAAAAHNxAH4AcwBwc3EAfgB4dXEAfgCKAAAABnNxAH4AjHEAfgCPc3EAfgCQc3EAfgCTdXEAfgCWAAAAAnNxAH4AmHEAfgCbcQB+AJ1zcQB+AIxxAH4Aj3NxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJhxAH4Ao3NxAH4AmHQAAmlvcQB+AJ1zcQB+AIxxAH4Ap3EAfgFJc3EAfgCMdAAGRXF1YWxzcQB+AUlzcQB+AIxxAH4Aq3NxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJhxAH4Ao3NxAH4AmHEAfgCxcQB+AJ1zcQB+AIxxAH4As3EAfgFJdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAARzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAQY29tLm1tLnNoYXJlc2FwcHNxAH4BYHQAA2NvbXNxAH4BYHQABmNvbS5tbXNxAH4BYHQAF2NvbS5tbS5zaGFyZXNhcHAuYWN0b3Jzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbobuBY3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADJDOlxVc2Vyc1xtYXJjb1xTaGFyZXNBcHBcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFKu3ZnWVsRIn1nlkrJVOFfhylsqr
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDIyFl0AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAATnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKBFyqF0AA9NYXJrZXRJbmRpY2F0b3JzcQB+AAwLlDyodAALcG9ydGZvbGlvSWRzcQB+AAwQPC14dAAGbm90aWZ5c3EAfgAMm8QOWnQABG5hbWVzcQB+AAwGbbhOdAAHbXZBdmc1MHNxAH4ADFKa+EB0AANwZWdzcQB+AAzv06qbdAAEd2FpdHNxAH4ADB8NvfJ0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADLvj8sx0AAlwb3J0Zm9saW9zcQB+AAwIb9FAdAANJGFzSW5zdGFuY2VPZnNxAH4ADCjViD10AA5jb3B5JGRlZmF1bHQkNXNxAH4ADHa5hCJ0AAp2b2xhdGlsaXR5c3EAfgAMa6Hwa3QADHByb2R1Y3RBcml0eXNxAH4ADEZvZu10AAdSc3NGZWVkc3EAfgAM546OUnQABmVxdWFsc3NxAH4ADCfMRdZ0AA5jb3B5JGRlZmF1bHQkOXNxAH4ADDetUMZ0AAtkZXNjcmlwdGlvbnNxAH4ADATbo490AAhOZXdzSXRlbXNxAH4ADNVvcON0AAxhc0luc3RhbmNlT2ZzcQB+AAxJqmwvdAAFcHJpY2VzcQB+AAx3fIhGdAAGbm90ZUlkc3EAfgAMXPLuFnQADHN5bmNocm9uaXplZHNxAH4ADGgZRV50AAVtdkF2Z3NxAH4ADNiQGXN0AA0kaXNJbnN0YW5jZU9mc3EAfgAM0WCbSHQABG1lYW5zcQB+AAyvtFf8dAAJUG9ydGZvbGlvc3EAfgAMFGz/+3QADmNvcHkkZGVmYXVsdCQ4c3EAfgAMn7yANnQADFRyYWRpbmdOb3Rlc3NxAH4ADEP2Mrh0AAhpbmR1c3RyeXNxAH4ADK5k2wN0AAltYXJrZXRDYXBzcQB+AAx4DX6kdAAIY2FuRXF1YWxzcQB+AAwol2+vdAAOY29weSRkZWZhdWx0JDRzcQB+AAx+vtE5dAAGc2VjdG9yc3EAfgAM/9v0IXQAC2xhdGVzdFByaWNlc3EAfgAMowmMKXQADXByb2R1Y3RQcmVmaXhzcQB+AAwsgLBZdAAJbm90aWZ5QWxsc3EAfgAMcDAVCHQADXZhbHVhdGlvbkRhdGVzcQB+AAxhR/YgdAAMaXNJbnN0YW5jZU9mc3EAfgAM25omCnQAB2ZlZWRVcmxzcQB+AAz2i37QdAAKU2hhcmVQcmljZXNxAH4ADB+Izst0AAY8aW5pdD5zcQB+AAzXANMVdAAKVm9sYXRpbGl0eXNxAH4ADM/VgER0AARub3Rlc3EAfgAMIiJhGXQAAj09c3EAfgAMgYdDBnQABWNsb25lc3EAfgAMcQbMZ3QABXRva2Vuc3EAfgAMOPL7tnQABGxpbmtzcQB+AAxAqn4ZdAANcHVibGlzaGVkRGF0ZXNxAH4ADAXnSGp0AA5jb3B5JGRlZmF1bHQkN3NxAH4ADHGvFft0AANxdHlzcQB+AAzb0gVSdAADZXBzc3EAfgAMgxeSLXQAB2NvbnRlbnRzcQB+AAzbT3ZpdAAJY3JlYXRlZEJ5c3EAfgAMx+OKQ3QADGNyZWF0aW9uRGF0ZXNxAH4ADN13UwB0AAltYXJrZXRLZXlzcQB+AAwOiudddAAOY29weSRkZWZhdWx0JDNzcQB+AAwCFrlbdAAEY29weXNxAH4ADJHM39J0AAh0b1N0cmluZ3NxAH4ADNfITRR0AAhwcm9wZXJ0eXNxAH4ADNwKh4p0AAIhPXNxAH4ADDRi/kd0AAhnZXRDbGFzc3NxAH4ADIJy5FB0AAV0aXRsZXNxAH4ADOwLw1d0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADHh6Azp0AAVTaGFyZXNxAH4ADOfrdf10AAZ0aWNrZXJzcQB+AAwAhtJOdAAGZndkRXBzc3EAfgAMGuRZynQADmNvcHkkZGVmYXVsdCQ2c3EAfgAMcyGnM3QAAm5lc3EAfgAMDZ0ZGnQABXZhbHVlc3EAfgAMg4Bz/3QAA2Npa3NxAH4ADNosz/Z0AAJlcXNxAH4ADMJiaDF0AAhhc09mRGF0ZXNxAH4ADKpQ5ax0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAwMr03WdAACIyNzcQB+AAzglASkdAAIZmluYWxpemVzcQB+AAxaX7ihdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAznzNBmdAAIaGFzaENvZGVzcQB+AAzlpJ0IdAAEY2FzaHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAhzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ALN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACljb20ubW0uc2hhcmVzYXBwLmVudGl0aWVzLk1hcmtldEluZGljYXRvcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AzHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AywBwc3EAfgDQc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+ALNMAAlpbmhlcml0ZWRxAH4As0wAB3BhcmVudHNxAH4As3hxAH4A1HNxAH4AywBwc3EAfgDQdXEAfgCuAAAAAHNxAH4AywBwc3EAfgDQdXEAfgCuAAAAAHNxAH4AywBwc3EAfgDQdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgDTdAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgDTc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDxc3EAfgDkcQB+AOdzcQB+AOhzcQB+AOt1cQB+AO4AAAADc3EAfgDwdAAEamF2YXNxAH4A8HQAAmlvcQB+APVzcQB+AOR0AAdQcm9kdWN0cQB+AOpzcQB+AOR0AAZFcXVhbHNxAH4A6nNxAH4A5HQABk9iamVjdHNxAH4A6HNxAH4A63VxAH4A7gAAAANzcQB+APBxAH4A+3NxAH4A8HQABGxhbmdxAH4A9XNxAH4A5HQAA0FueXEAfgDqc3EAfgCwcQB+AL11cQB+AL4AAAAAc3EAfgDAAHQAImNvbS5tbS5zaGFyZXNhcHAuZW50aXRpZXMuTmV3c0l0ZW11cQB+AMMAAAAAcQB+AMd1cQB+AMkAAAAAc3EAfgDLAHBzcQB+ANBxAH4A1XNxAH4AywBwc3EAfgDQc3EAfgDYc3EAfgDLAHBzcQB+ANB1cQB+AK4AAAAAc3EAfgDLAHBzcQB+ANB1cQB+AK4AAAAAc3EAfgDLAHBzcQB+ANB1cQB+AOIAAAAGc3EAfgDkcQB+AOdzcQB+AOhzcQB+AOt1cQB+AO4AAAACc3EAfgDwcQB+APNxAH4A9XNxAH4A5HEAfgDnc3EAfgDoc3EAfgDrdXEAfgDuAAAAA3NxAH4A8HEAfgD7c3EAfgDwdAACaW9xAH4A9XNxAH4A5HEAfgD/cQB+ASFzcQB+AOR0AAZFcXVhbHNxAH4BIXNxAH4A5HEAfgEDc3EAfgDoc3EAfgDrdXEAfgDuAAAAA3NxAH4A8HEAfgD7c3EAfgDwcQB+AQlxAH4A9XNxAH4A5HEAfgELcQB+ASFzcQB+ALBxAH4AvXVxAH4AvgAAAABzcQB+AMAAdAAjY29tLm1tLnNoYXJlc2FwcC5lbnRpdGllcy5Qb3J0Zm9saW91cQB+AMMAAAAAcQB+AMd1cQB+AMkAAAAAc3EAfgDLAHBzcQB+ANBxAH4A1XNxAH4AywBwc3EAfgDQc3EAfgDYc3EAfgDLAHBzcQB+ANB1cQB+AK4AAAAAc3EAfgDLAHBzcQB+ANB1cQB+AK4AAAAAc3EAfgDLAHBzcQB+ANB1cQB+AOIAAAAGc3EAfgDkcQB+AOdzcQB+AOhzcQB+AOt1cQB+AO4AAAACc3EAfgDwcQB+APNxAH4A9XNxAH4A5HEAfgDnc3EAfgDoc3EAfgDrdXEAfgDuAAAAA3NxAH4A8HEAfgD7c3EAfgDwdAACaW9xAH4A9XNxAH4A5HEAfgD/cQB+AUtzcQB+AOR0AAZFcXVhbHNxAH4BS3NxAH4A5HEAfgEDc3EAfgDoc3EAfgDrdXEAfgDuAAAAA3NxAH4A8HEAfgD7c3EAfgDwcQB+AQlxAH4A9XNxAH4A5HEAfgELcQB+AUtzcQB+ALBxAH4AvXVxAH4AvgAAAABzcQB+AMAAdAAhY29tLm1tLnNoYXJlc2FwcC5lbnRpdGllcy5Sc3NGZWVkdXEAfgDDAAAAAHEAfgDHdXEAfgDJAAAAAHNxAH4AywBwc3EAfgDQcQB+ANVzcQB+AMsAcHNxAH4A0HNxAH4A2HNxAH4AywBwc3EAfgDQdXEAfgCuAAAAAHNxAH4AywBwc3EAfgDQdXEAfgCuAAAAAHNxAH4AywBwc3EAfgDQdXEAfgDiAAAABnNxAH4A5HEAfgDnc3EAfgDoc3EAfgDrdXEAfgDuAAAAAnNxAH4A8HEAfgDzcQB+APVzcQB+AORxAH4A53NxAH4A6HNxAH4A63VxAH4A7gAAAANzcQB+APBxAH4A+3NxAH4A8HQAAmlvcQB+APVzcQB+AORxAH4A/3EAfgF1c3EAfgDkdAAGRXF1YWxzcQB+AXVzcQB+AORxAH4BA3NxAH4A6HNxAH4A63VxAH4A7gAAAANzcQB+APBxAH4A+3NxAH4A8HEAfgEJcQB+APVzcQB+AORxAH4BC3EAfgF1c3EAfgCwcQB+AL11cQB+AL4AAAAAc3EAfgDAAHQAH2NvbS5tbS5zaGFyZXNhcHAuZW50aXRpZXMuU2hhcmV1cQB+AMMAAAAAcQB+AMd1cQB+AMkAAAAAc3EAfgDLAHBzcQB+ANBxAH4A1XNxAH4AywBwc3EAfgDQc3EAfgDYc3EAfgDLAHBzcQB+ANB1cQB+AK4AAAAAc3EAfgDLAHBzcQB+ANB1cQB+AK4AAAAAc3EAfgDLAHBzcQB+ANB1cQB+AOIAAAAGc3EAfgDkcQB+AOdzcQB+AOhzcQB+AOt1cQB+AO4AAAACc3EAfgDwcQB+APNxAH4A9XNxAH4A5HEAfgDnc3EAfgDoc3EAfgDrdXEAfgDuAAAAA3NxAH4A8HEAfgD7c3EAfgDwdAACaW9xAH4A9XNxAH4A5HEAfgD/cQB+AZ9zcQB+AOR0AAZFcXVhbHNxAH4Bn3NxAH4A5HEAfgEDc3EAfgDoc3EAfgDrdXEAfgDuAAAAA3NxAH4A8HEAfgD7c3EAfgDwcQB+AQlxAH4A9XNxAH4A5HEAfgELcQB+AZ9zcQB+ALBxAH4AvXVxAH4AvgAAAABzcQB+AMAAdAAkY29tLm1tLnNoYXJlc2FwcC5lbnRpdGllcy5TaGFyZVByaWNldXEAfgDDAAAAAHEAfgDHdXEAfgDJAAAAAHNxAH4AywBwc3EAfgDQcQB+ANVzcQB+AMsAcHNxAH4A0HNxAH4A2HNxAH4AywBwc3EAfgDQdXEAfgCuAAAAAHNxAH4AywBwc3EAfgDQdXEAfgCuAAAAAHNxAH4AywBwc3EAfgDQdXEAfgDiAAAABnNxAH4A5HEAfgDnc3EAfgDoc3EAfgDrdXEAfgDuAAAAAnNxAH4A8HEAfgDzcQB+APVzcQB+AORxAH4A53NxAH4A6HNxAH4A63VxAH4A7gAAAANzcQB+APBxAH4A+3NxAH4A8HQAAmlvcQB+APVzcQB+AORxAH4A/3EAfgHJc3EAfgDkdAAGRXF1YWxzcQB+AclzcQB+AORxAH4BA3NxAH4A6HNxAH4A63VxAH4A7gAAAANzcQB+APBxAH4A+3NxAH4A8HEAfgEJcQB+APVzcQB+AORxAH4BC3EAfgHJc3EAfgCwcQB+AL11cQB+AL4AAAAAc3EAfgDAAHQAJmNvbS5tbS5zaGFyZXNhcHAuZW50aXRpZXMuVHJhZGluZ05vdGVzdXEAfgDDAAAAAHEAfgDHdXEAfgDJAAAAAHNxAH4AywBwc3EAfgDQcQB+ANVzcQB+AMsAcHNxAH4A0HNxAH4A2HNxAH4AywBwc3EAfgDQdXEAfgCuAAAAAHNxAH4AywBwc3EAfgDQdXEAfgCuAAAAAHNxAH4AywBwc3EAfgDQdXEAfgDiAAAABnNxAH4A5HEAfgDnc3EAfgDoc3EAfgDrdXEAfgDuAAAAAnNxAH4A8HEAfgDzcQB+APVzcQB+AORxAH4A53NxAH4A6HNxAH4A63VxAH4A7gAAAANzcQB+APBxAH4A+3NxAH4A8HQAAmlvcQB+APVzcQB+AORxAH4A/3EAfgHzc3EAfgDkdAAGRXF1YWxzcQB+AfNzcQB+AORxAH4BA3NxAH4A6HNxAH4A63VxAH4A7gAAAANzcQB+APBxAH4A+3NxAH4A8HEAfgEJcQB+APVzcQB+AORxAH4BC3EAfgHzc3EAfgCwcQB+AL11cQB+AL4AAAAAc3EAfgDAAHQAJGNvbS5tbS5zaGFyZXNhcHAuZW50aXRpZXMuVm9sYXRpbGl0eXVxAH4AwwAAAABxAH4Ax3VxAH4AyQAAAABzcQB+AMsAcHNxAH4A0HEAfgDVc3EAfgDLAHBzcQB+ANBzcQB+ANhzcQB+AMsAcHNxAH4A0HVxAH4ArgAAAABzcQB+AMsAcHNxAH4A0HVxAH4ArgAAAABzcQB+AMsAcHNxAH4A0HVxAH4A4gAAAAZzcQB+AORxAH4A53NxAH4A6HNxAH4A63VxAH4A7gAAAAJzcQB+APBxAH4A83EAfgD1c3EAfgDkcQB+AOdzcQB+AOhzcQB+AOt1cQB+AO4AAAADc3EAfgDwcQB+APtzcQB+APB0AAJpb3EAfgD1c3EAfgDkcQB+AP9xAH4CHXNxAH4A5HQABkVxdWFsc3EAfgIdc3EAfgDkcQB+AQNzcQB+AOhzcQB+AOt1cQB+AO4AAAADc3EAfgDwcQB+APtzcQB+APBxAH4BCXEAfgD1c3EAfgDkcQB+AQtxAH4CHXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEGNvbS5tbS5zaGFyZXNhcHBzcQB+AjR0ABljb20ubW0uc2hhcmVzYXBwLmVudGl0aWVzc3EAfgI0dAADY29tc3EAfgI0dAAGY29tLm1tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbobuBY3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADJDOlxVc2Vyc1xtYXJjb1xTaGFyZXNBcHBcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFG8/2WE6G3Gs8Md6esY3w+qKEGng
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBE86BkAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDn3Dex0AAZub3RpZnlzcQB+AAz1MwfbdAAEd2FpdHNxAH4ADEK38o90AA0kYXNJbnN0YW5jZU9mc3EAfgAM0bVvwHQABmluc2VydHNxAH4ADFiE2L10AAZlcXVhbHNzcQB+AAzfQ/NSdAAMYXNJbnN0YW5jZU9mc3EAfgAMKn7Ix3QADHN5bmNocm9uaXplZHNxAH4ADKmm6lR0AAJkYnNxAH4ADC+9dWF0AA0kaXNJbnN0YW5jZU9mc3EAfgAMqXA/0nQADWZpbmRCeUV4YW1wbGVzcQB+AAzS1Dd4dAAJbm90aWZ5QWxsc3EAfgAM8X7iRnQAB2ZpbmRBbGxzcQB+AAyEtDr+dAAMaXNJbnN0YW5jZU9mc3EAfgAMHmxnKHQAAj09c3EAfgAMyha2ZnQADUJhc2VEYlNlcnZpY2VzcQB+AAwSDaeYdAAFY2xvbmVzcQB+AAxcjCzCdAAIdG9TdHJpbmdzcQB+AAwbGwspdAACIT1zcQB+AAz7VDx1dAAIZ2V0Q2xhc3NzcQB+AAzvNKeTdAACbmVzcQB+AAw6Ayx1dAACZXFzcQB+AAyfGt5odAACIyNzcQB+AAwwoFn/dAAIZmluYWxpemVzcQB+AAzVwSKQdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHABdAAqY29tLm1tLnNoYXJlc2FwcC5wZXJzaXN0ZW5jZS5CYXNlRGJTZXJ2aWNldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAFzcgAXeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXJnaVXb43KQawIABlsAC2Fubm90YXRpb25zcQB+AExMAAJpZHEAfgANTAAKbG93ZXJCb3VuZHQAEEx4c2J0aS9hcGkvVHlwZTtbAA50eXBlUGFyYW1ldGVyc3EAfgBJTAAKdXBwZXJCb3VuZHEAfgBaTAAIdmFyaWFuY2V0ABRMeHNidGkvYXBpL1ZhcmlhbmNlO3hwdXEAfgBSAAAAAHQALGNvbS5tbS5zaGFyZXNhcHAucGVyc2lzdGVuY2UuQmFzZURiU2VydmljZS5Uc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHQAB05vdGhpbmdzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AG51cQB+AFcAAAAAc3EAfgBfdAAGT2JqZWN0c3EAfgBlc3EAfgBodXEAfgBrAAAAA3NxAH4AbXQABGphdmFzcQB+AG10AARsYW5ncQB+AHJ+cgASeHNidGkuYXBpLlZhcmlhbmNlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAJSW52YXJpYW50fnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHEAfgB+dAAFVHJhaXR1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCHeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHEAfgBhc3EAfgCGAHBzcQB+AItzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AR0wACWluaGVyaXRlZHEAfgBHTAAHcGFyZW50c3EAfgBHeHEAfgBic3EAfgCGAHBzcQB+AIt1cQB+AEIAAAAAc3EAfgCGAHBzcQB+AIt1cQB+AEIAAAAAc3EAfgCGAHBzcQB+AIt1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNxAH4AX3EAfgB1c3EAfgBlc3EAfgBodXEAfgBrAAAAA3NxAH4AbXEAfgB6c3EAfgBtcQB+AHxxAH4AcnNxAH4AX3QAA0FueXNxAH4AZXNxAH4AaHVxAH4AawAAAAJzcQB+AG1xAH4AcHEAfgBydXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAARzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAQY29tLm1tLnNoYXJlc2FwcHNxAH4Aq3QAHGNvbS5tbS5zaGFyZXNhcHAucGVyc2lzdGVuY2VzcQB+AKt0AANjb21zcQB+AKt0AAZjb20ubW1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVuhu4FjdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAMkM6XFVzZXJzXG1hcmNvXFNoYXJlc0FwcFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUHrpO/lhr394TLtXc3scHoh5RW3k=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBljEgrAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAIXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cIZUwU50AAZub3RpZnlzcQB+AAyNCV/FdAAIbWFwcGluZ3NzcQB+AAzdRpUOdAAQc2F2ZUJ5VW5pcXVlS2V5c3NxAH4ADPTQXqh0AAR3YWl0c3EAfgAMe7ick3QACW5vd01pbGxpc3NxAH4ADOu3a4d0AA0kYXNJbnN0YW5jZU9mc3EAfgAMOz9bM3QABmxvZ2dlcnNxAH4ADGQYv7F0AAZlcXVhbHNzcQB+AAwRSuhrdAAMYXNJbnN0YW5jZU9mc3EAfgAMe6zbuXQADHN5bmNocm9uaXplZHNxAH4ADH4ylop0AA0kaXNJbnN0YW5jZU9mc3EAfgAMuE5du3QABXF1ZXJ5c3EAfgAMwTJkd3QACW5vdGlmeUFsbHNxAH4ADOtzUgB0AANub3dzcQB+AAzjngaAdAAMaXNJbnN0YW5jZU9mc3EAfgAMHfxUHHQADGZldGNoV2l0aFNxbHNxAH4ADF0gtvx0AAI9PXNxAH4ADN3QZiN0AAVjbG9uZXNxAH4ADJ2HrX90AAZkZWxldGVzcQB+AAyZ3ZoEdAAJY29ubmVjdG9yc3EAfgAMaKfJ4HQACHRvU3RyaW5nc3EAfgAMZhKfmXQAAiE9c3EAfgAM/dvowHQACWZldGNoQnlJZHNxAH4ADESLHoZ0AAhnZXRDbGFzc3NxAH4ADPcMPiR0AAVjbG9zZXNxAH4ADGNSIzB0AARzYXZlc3EAfgAM4y0Q/HQAAm5lc3EAfgAMLxDjyXQAC3RyYW5zYWN0aW9uc3EAfgAMOed0/nQAAmVxc3EAfgAMCJNzrHQAAiMjc3EAfgAM6sbyw3QACGZpbmFsaXplc3EAfgAM+BDdrHQACGhhc2hDb2Rlc3EAfgAMXxXa2nQAAkRic3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AWXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAH2NvbS5tbS5zaGFyZXNhcHAucGVyc2lzdGVuY2UuRGJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAQc2NhbGEuZGVwcmVjYXRlZHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Ac3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcgBwc3EAfgB3c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFlMAAlpbmhlcml0ZWRxAH4AWUwAB3BhcmVudHNxAH4AWXhxAH4Ae3NxAH4AcgBwc3EAfgB3dXEAfgBUAAAAAHNxAH4AcgBwc3EAfgB3dXEAfgBUAAAAAHNxAH4AcgBwc3EAfgB3dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB6dAAISW5zdGFuY2VzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHpzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABHNvcm1zcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AmHNxAH4Ai3QAA0FwaXNxAH4Ai3QACEluc3RhbmNlcQB+AJFzcQB+AIt0AA5Jbml0aWFsaXphdGlvbnEAfgCfc3EAfgCLdAANU3RyaWN0TG9nZ2luZ3NxAH4Aj3NxAH4AknVxAH4AlQAAAARzcQB+AJd0AANjb21zcQB+AJd0AAh0eXBlc2FmZXNxAH4Al3QADHNjYWxhbG9nZ2luZ3EAfgCcc3EAfgCLdAAGT2JqZWN0c3EAfgCPc3EAfgCSdXEAfgCVAAAAA3NxAH4Al3QABGphdmFzcQB+AJd0AARsYW5ncQB+AJxzcQB+AIt0AANBbnlzcQB+AI9zcQB+AJJ1cQB+AJUAAAACc3EAfgCXdAAFc2NhbGFxAH4AnHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEGNvbS5tbS5zaGFyZXNhcHBzcQB+AMB0ABxjb20ubW0uc2hhcmVzYXBwLnBlcnNpc3RlbmNlc3EAfgDAdAADY29tc3EAfgDAdAAGY29tLm1tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbobuBY3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADJDOlxVc2Vyc1xtYXJjb1xTaGFyZXNBcHBcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFLhQU3hpJS+svOKWs94l/geTMYaM
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC1+LUjAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cO+2n7h0AAZub3RpZnlzcQB+AAymshMedAAIbWFwcGluZ3NzcQB+AAw2MuNwdAAQc2F2ZUJ5VW5pcXVlS2V5c3NxAH4ADAUp3ut0AAR3YWl0c3EAfgAMIU1I4nQACW5vd01pbGxpc3NxAH4ADCwzul50AA0kYXNJbnN0YW5jZU9mc3EAfgAMNil1JnQABmxvZ2dlcnNxAH4ADL/h+Vt0AAZlcXVhbHNzcQB+AAzsJkiTdAAMYXNJbnN0YW5jZU9mc3EAfgAMPGVwrHQADHN5bmNocm9uaXplZHNxAH4ADCctYN50AAJkYnNxAH4ADKRUF/V0AA0kaXNJbnN0YW5jZU9mc3EAfgAMvJy0lHQABXF1ZXJ5c3EAfgAMmq+lhHQACW5vdGlmeUFsbHNxAH4ADN1J/MV0AANub3dzcQB+AAw/DHjzdAAMaXNJbnN0YW5jZU9mc3EAfgAMuVBkg3QADGZldGNoV2l0aFNxbHNxAH4ADFdWCfl0AAI9PXNxAH4ADJlSzxl0AAVjbG9uZXNxAH4ADDKV2Qp0AAZkZWxldGVzcQB+AAz5zjX/dAAJY29ubmVjdG9yc3EAfgAMIFjmWnQABiRpbml0JHNxAH4ADGae+VN0AAh0b1N0cmluZ3NxAH4ADJqtWX50AAIhPXNxAH4ADB8lpft0AAlmZXRjaEJ5SWRzcQB+AAzgEa6adAAIZ2V0Q2xhc3NzcQB+AAxFPRZbdAALRGJDb21wb25lbnRzcQB+AAww1//6dAAFY2xvc2VzcQB+AAxsqHqIdAAEc2F2ZXNxAH4ADAYhF6t0AAJuZXNxAH4ADBKwZN50AAt0cmFuc2FjdGlvbnNxAH4ADB+ayK50AAJlcXNxAH4ADDi7P8h0AAIjI3NxAH4ADHdCXrV0AAhmaW5hbGl6ZXNxAH4ADNe5ZvV0AAhoYXNoQ29kZXNxAH4ADAmW1VV0AAJEYnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AF94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAF0AChjb20ubW0uc2hhcmVzYXBwLnBlcnNpc3RlbmNlLkRiQ29tcG9uZW50dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAFVHJhaXR1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgB4eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB3AHBzcQB+AHxzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AX0wACWluaGVyaXRlZHEAfgBfTAAHcGFyZW50c3EAfgBfeHEAfgCAc3EAfgB3AHBzcQB+AHx1cQB+AFoAAAAAc3EAfgB3AHBzcQB+AHx1cQB+AFoAAAAAc3EAfgB3AHBzcQB+AHx1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AH90AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AH9zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AJx0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ1zcQB+AJB0AANBbnlzcQB+AJRzcQB+AJd1cQB+AJoAAAACc3EAfgCcdAAFc2NhbGFxAH4Ao3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEGNvbS5tbS5zaGFyZXNhcHBzcQB+AK10ABxjb20ubW0uc2hhcmVzYXBwLnBlcnNpc3RlbmNlc3EAfgCtdAADY29tc3EAfgCtdAAGY29tLm1tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbobuBY3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADJDOlxVc2Vyc1xtYXJjb1xTaGFyZXNBcHBcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFGLyi1a/p6PmY1oXahLZhuKSCqwK
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHB7zj76AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAG3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cNzoOUd0AAZub3RpZnlzcQB+AAyjixvNdAAEd2FpdHNxAH4ADNRVcqh0AA0kYXNJbnN0YW5jZU9mc3EAfgAM3/VYr3QABWRiVXJsc3EAfgAMvGFsfXQABmVxdWFsc3NxAH4ADJiBFB90AAh1c2VybmFtZXNxAH4ADKDY38l0AAZkYk5hbWVzcQB+AAwSYZd2dAAMYXNJbnN0YW5jZU9mc3EAfgAMVLCxNHQADHN5bmNocm9uaXplZHNxAH4ADFiSJ/h0AA0kaXNJbnN0YW5jZU9mc3EAfgAMRrFcfXQABmNvbmZpZ3NxAH4ADBd/y8V0AAlub3RpZnlBbGxzcQB+AAy+kleRdAAMaXNJbnN0YW5jZU9mc3EAfgAM6otDEXQABkNvbmZpZ3NxAH4ADHYt3Et0AAI9PXNxAH4ADMD8iad0AAVjbG9uZXNxAH4ADJeYseN0AAYkaW5pdCRzcQB+AAyHljwEdAAIdG9TdHJpbmdzcQB+AAwwEArCdAACIT1zcQB+AAyFctVBdAARRGJDb25maWdDb21wb25lbnRzcQB+AAzEwDI3dAAIZ2V0Q2xhc3NzcQB+AAzLjpJOdAACbmVzcQB+AAx4yx8xdAACZXFzcQB+AAw+HUq6dAACIyNzcQB+AAwdZf5ndAAIZmluYWxpemVzcQB+AAzTzsAmdAAIaGFzaENvZGVzcQB+AAzMGTBhdAAIcGFzc3dvcmRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBNeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHABdAAuY29tLm1tLnNoYXJlc2FwcC5wZXJzaXN0ZW5jZS5EYkNvbmZpZ0NvbXBvbmVudHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AZnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AZQBwc3EAfgBqc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE1MAAlpbmhlcml0ZWRxAH4ATUwAB3BhcmVudHNxAH4ATXhxAH4AbnNxAH4AZQBwc3EAfgBqdXEAfgBIAAAAAHNxAH4AZQBwc3EAfgBqdXEAfgBIAAAAAHNxAH4AZQBwc3EAfgBqdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBtdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBtc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCKdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCLc3EAfgB+dAADQW55c3EAfgCCc3EAfgCFdXEAfgCIAAAAAnNxAH4AinQABXNjYWxhcQB+AJF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABBjb20ubW0uc2hhcmVzYXBwc3EAfgCbdAAcY29tLm1tLnNoYXJlc2FwcC5wZXJzaXN0ZW5jZXNxAH4Am3QAA2NvbXNxAH4Am3QABmNvbS5tbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW6G7gWN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAyQzpcVXNlcnNcbWFyY29cU2hhcmVzQXBwXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSGP0H5e3kTW+VDLdkxpeQgxpJK0w==
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCgSreEAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cApb+490AAZub3RpZnlzcQB+AAz168BkdAALU2FtcGxlRGJBcHBzcQB+AAyAAVBjdAAEd2FpdHNxAH4ADDJfyIp0AA0kYXNJbnN0YW5jZU9mc3EAfgAMBaQLl3QABmVxdWFsc3NxAH4ADBelROp0AAxhc0luc3RhbmNlT2ZzcQB+AAwnVPWbdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAzu/QaPdAAMc3luY2hyb25pemVkc3EAfgAMqjCYoXQADSRpc0luc3RhbmNlT2ZzcQB+AAycpVjcdAAEbWFpbnNxAH4ADDe/Spt0AAlub3RpZnlBbGxzcQB+AAzZZm2rdAAMaXNJbnN0YW5jZU9mc3EAfgAM8YUbZHQAAj09c3EAfgAMwGhEwnQABWNsb25lc3EAfgAMsanpBXQACHRvU3RyaW5nc3EAfgAMvHD2c3QABGFyZ3NzcQB+AAwXx8bKdAACIT1zcQB+AAwNDccrdAAIZ2V0Q2xhc3NzcQB+AAyslEm7dAACbmVzcQB+AAyN/RHVdAACZXFzcQB+AAxWQclldAAGYWxsUHRmc3EAfgAMtkeotnQAC2RlbGF5ZWRJbml0c3EAfgAMvy9LMHQAAiMjc3EAfgAMwrfkaHQACGZpbmFsaXplc3EAfgAMQT6ySXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ASXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAKGNvbS5tbS5zaGFyZXNhcHAucGVyc2lzdGVuY2UuU2FtcGxlRGJBcHB1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAQc2NhbGEuZGVwcmVjYXRlZHQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5nc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBkeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBjAHBzcQB+AGhzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ASUwACWluaGVyaXRlZHEAfgBJTAAHcGFyZW50c3EAfgBJeHEAfgBsc3EAfgBjAHBzcQB+AGh1cQB+AEQAAAAAc3EAfgBjAHBzcQB+AGh1cQB+AEQAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEpxAH4AU3VxAH4AVAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AHl4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgANTAAFdmFsdWVxAH4ADXhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Aa3QAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBrc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCTc3EAfgBWAHEAfgAhdXEAfgBZAAAAAHNxAH4AhnQABFVuaXRxAH4AjHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AHl4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFx0AAVQbGFpbnEAfgAtc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCHWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBrc3EAfgCGdAAFQXJyYXlxAH4AjHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCGdAAGU3RyaW5nc3EAfgCKc3EAfgCNdXEAfgCQAAAAA3NxAH4AknQABGphdmFzcQB+AJJ0AARsYW5ncQB+AJdzcQB+AGMAcHNxAH4AaHVxAH4ArgAAAARzcQB+AIZ0AANBcHBxAH4AjHNxAH4AhnQAC0RlbGF5ZWRJbml0cQB+AIxzcQB+AIZ0AAZPYmplY3RxAH4AsnNxAH4AhnQAA0FueXEAfgCMdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAARzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAQY29tLm1tLnNoYXJlc2FwcHNxAH4AxnQAHGNvbS5tbS5zaGFyZXNhcHAucGVyc2lzdGVuY2VzcQB+AMZ0AANjb21zcQB+AMZ0AAZjb20ubW1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVuhu4FjdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAMkM6XFVzZXJzXG1hcmNvXFNoYXJlc0FwcFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUZ64J8UP0msIRrjPRL7yR0UTy/qY=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHB6sD2BAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cEIyAjl0AAZub3RpZnlzcQB+AAz0xxXjdAAEd2FpdHNxAH4ADHrvqDx0AA0kYXNJbnN0YW5jZU9mc3EAfgAMwvPbRXQABmluc2VydHNxAH4ADD3GCWZ0AAZlcXVhbHNzcQB+AAwQvylSdAAMYXNJbnN0YW5jZU9mc3EAfgAMW+cYSHQADHN5bmNocm9uaXplZHNxAH4ADEzaAzp0AAJkYnNxAH4ADOJCK+R0AA0kaXNJbnN0YW5jZU9mc3EAfgAMiFdcLHQADlNoYXJlRGJTZXJ2aWNlc3EAfgAMMH83eXQADWZpbmRCeUV4YW1wbGVzcQB+AAxZAhVTdAAJbm90aWZ5QWxsc3EAfgAM6dJufHQAB2ZpbmRBbGxzcQB+AAxcXX6KdAAMaXNJbnN0YW5jZU9mc3EAfgAMt2ygcnQAAj09c3EAfgAMWZ0wdHQABWNsb25lc3EAfgAMMC1SfHQABiRpbml0JHNxAH4ADJzR5bF0AAh0b1N0cmluZ3NxAH4ADEtx+1J0AAIhPXNxAH4ADBzWZrF0AAhnZXRDbGFzc3NxAH4ADFVFVxR0AAJuZXNxAH4ADDN22V50AAJlcXNxAH4ADG4omRZ0AAIjI3NxAH4ADCKjW3p0AAhmaW5hbGl6ZXNxAH4ADL9y2sx0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAF0ACtjb20ubW0uc2hhcmVzYXBwLnBlcnNpc3RlbmNlLlNoYXJlRGJTZXJ2aWNldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAFVHJhaXR1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBieHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBhAHBzcQB+AGZzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ASUwACWluaGVyaXRlZHEAfgBJTAAHcGFyZW50c3EAfgBJeHEAfgBqc3EAfgBhAHBzcQB+AGZ1cQB+AEQAAAAAc3EAfgBhAHBzcQB+AGZ1cQB+AEQAAAAAc3EAfgBhAHBzcQB+AGZ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGV0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4cQB+AHt4cQB+AGl0AA1CYXNlRGJTZXJ2aWNlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBpc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAFc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANjb21zcQB+AIl0AAJtbXNxAH4AiXQACXNoYXJlc2FwcHNxAH4AiXQAC3BlcnNpc3RlbmNlc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIp1cQB+AHgAAAABc3EAfgB+dAAKU2hhcmVQcmljZXNxAH4AgXNxAH4AhHVxAH4AhwAAAAVzcQB+AIl0AANjb21zcQB+AIl0AAJtbXNxAH4AiXQACXNoYXJlc2FwcHNxAH4AiXQACGVudGl0aWVzcQB+AJRzcQB+AH50AAZPYmplY3RzcQB+AIFzcQB+AIR1cQB+AIcAAAADc3EAfgCJdAAEamF2YXNxAH4AiXQABGxhbmdxAH4AlHNxAH4AfnQAA0FueXNxAH4AgXNxAH4AhHVxAH4AhwAAAAJzcQB+AIl0AAVzY2FsYXEAfgCUdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAARzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAQY29tLm1tLnNoYXJlc2FwcHNxAH4AtXQAHGNvbS5tbS5zaGFyZXNhcHAucGVyc2lzdGVuY2VzcQB+ALV0AANjb21zcQB+ALV0AAZjb20ubW1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVuhu4FjdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAMkM6XFVzZXJzXG1hcmNvXFNoYXJlc0FwcFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUUhwT2Ae+PxHo+rDsuZkcU43QZSE=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAo/i6AAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLuejVF0AAZub3RpZnlzcQB+AAzFSiZedAAEd2FpdHNxAH4ADLgQ19J0AA0kYXNJbnN0YW5jZU9mc3EAfgAMBF+WCHQABmxvZ2dlcnNxAH4ADIJztcl0AAZlcXVhbHNzcQB+AAwMyeROdAAMYXNJbnN0YW5jZU9mc3EAfgAMT4jqH3QADHN5bmNocm9uaXplZHNxAH4ADL4FdTJ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMNSh+iHQACW5vdGlmeUFsbHNxAH4ADLvHeyp0ABFfZ2V0RnJvbUNTVlJlYWRlcnNxAH4ADJxg9Rx0AA9kb3dubG9hZEZyb21VUkxzcQB+AAy4glipdAAMaXNJbnN0YW5jZU9mc3EAfgAMCSu2ZXQABjxpbml0PnNxAH4ADPl8vJ50AApsb2dnZXJOYW1lc3EAfgAMc9ipw3QAAj09c3EAfgAMpWeBH3QABWNsb25lc3EAfgAMQk5NVnQABiRpbml0JHNxAH4ADMQqlZB0AAtfZ2V0RnJvbVVybHNxAH4ADJpQPSJ0AAh0b1N0cmluZ3NxAH4ADN2zBxl0AAIhPXNxAH4ADK4F6Dl0AAhnZXRDbGFzc3NxAH4ADK5V7TR0AA5EYXRhRG93bmxvYWRlcnNxAH4ADLjZBrp0AAJuZXNxAH4ADIXqO9h0AAtkb3dubG9hZENTVnNxAH4ADChzm990AAJlcXNxAH4ADNxzzrZ0AAIjI3NxAH4ADLxIC710AAhmaW5hbGl6ZXNxAH4ADAt2R6d0AA5kYXRhRG93bmxvYWRlcnNxAH4ADB/IJnt0AAhoYXNoQ29kZXNxAH4ADPiNrQF0ABdEYXRhRG93bmxvYWRlckNvbXBvbmVudHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAF0ADFjb20ubW0uc2hhcmVzYXBwLnNlcnZpY2VzLkRhdGFEb3dubG9hZGVyQ29tcG9uZW50dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAFVHJhaXR1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBseHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBrAHBzcQB+AHBzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AU0wACWluaGVyaXRlZHEAfgBTTAAHcGFyZW50c3EAfgBTeHEAfgB0c3EAfgBrAHBzcQB+AHB1cQB+AE4AAAAAc3EAfgBrAHBzcQB+AHB1cQB+AE4AAAAAc3EAfgBrAHBzcQB+AHB1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHN0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHNzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AJB0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJFzcQB+AIR0AANBbnlzcQB+AIhzcQB+AIt1cQB+AI4AAAACc3EAfgCQdAAFc2NhbGFxAH4Al3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEGNvbS5tbS5zaGFyZXNhcHBzcQB+AKF0ABljb20ubW0uc2hhcmVzYXBwLnNlcnZpY2Vzc3EAfgChdAADY29tc3EAfgChdAAGY29tLm1tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbobuBY3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADJDOlxVc2Vyc1xtYXJjb1xTaGFyZXNBcHBcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFJBW8b/n1q1iU2u67XJFX8fkRjcN
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDu0bklAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCiryut0AAZub3RpZnlzcQB+AAxKANgadAAEd2FpdHNxAH4ADJNqF6h0AA0kYXNJbnN0YW5jZU9mc3EAfgAM9tQi8XQABmxvZ2dlcnNxAH4ADNX+uyl0AAZlcXVhbHNzcQB+AAzAQIF6dAAMYXNJbnN0YW5jZU9mc3EAfgAMJNiagXQADHN5bmNocm9uaXplZHNxAH4ADKPU4w10AA0kaXNJbnN0YW5jZU9mc3EAfgAMn5tvpnQACW5vdGlmeUFsbHNxAH4ADItkfPt0AAxpc0luc3RhbmNlT2ZzcQB+AAxO26qQdAAKbG9nZ2VyTmFtZXNxAH4ADGLHyRp0AAI9PXNxAH4ADP3DvJV0AAVjbG9uZXNxAH4ADKNpCUV0AAYkaW5pdCRzcQB+AAw1/613dAAIdG9TdHJpbmdzcQB+AAz7WIVMdAACIT1zcQB+AAxbngyhdAAIZ2V0Q2xhc3NzcQB+AAzXLvltdAACbmVzcQB+AAwq+bs8dAACZXFzcQB+AAwni9GydAAJTG9nSGVscGVyc3EAfgAMYKE8q3QAAiMjc3EAfgAMOtwxVHQACGZpbmFsaXplc3EAfgAMlxhoDnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ARXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAXQAH2NvbS5tbS5zaGFyZXNhcHAudXRpbC5Mb2dIZWxwZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAVUcmFpdHVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AF54cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF0AcHNxAH4AYnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBFTAAJaW5oZXJpdGVkcQB+AEVMAAdwYXJlbnRzcQB+AEV4cQB+AGZzcQB+AF0AcHNxAH4AYnVxAH4AQAAAAABzcQB+AF0AcHNxAH4AYnVxAH4AQAAAAABzcQB+AF0AcHNxAH4AYnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AZXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgnQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ag3NxAH4AdnQAA0FueXNxAH4AenNxAH4AfXVxAH4AgAAAAAJzcQB+AIJ0AAVzY2FsYXEAfgCJdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAARzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAQY29tLm1tLnNoYXJlc2FwcHNxAH4Ak3QAA2NvbXNxAH4Ak3QAFWNvbS5tbS5zaGFyZXNhcHAudXRpbHNxAH4Ak3QABmNvbS5tbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW6G7gWN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAyQzpcVXNlcnNcbWFyY29cU2hhcmVzQXBwXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABS+wHe4pT+2ANNiX5CH6EfyqYoeJA==
+external apis:
+0 items
+source infos:
+11 items
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\MasterActor.scala -> 
+AAAAAAAAAAA=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\actors\Requests.scala -> 
+AAAAAAAAAAA=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\entities\Domain.scala -> 
+AAAAAAAAAAA=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\BaseDbService.scala -> 
+AAAAAAAAAAA=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\Db.scala -> 
+AAAAAAAAAAA=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbComponent.scala -> 
+AAAAAAAAAAA=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\DbConfig.scala -> 
+AAAAAAAAAAA=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\SampleDbApp.scala -> 
+AAAAAAAAAAA=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\persistence\ShareDbService.scala -> 
+AAAAAAAAAAA=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\services\DataDownloaderComponent.scala -> 
+AAAAAAAAAAA=
+C:\Users\marco\SharesApp\src\main\scala\com\mm\sharesapp\util\LogHelper.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW6G7gWN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMkM6XFVzZXJzXG1hcmNvXFNoYXJlc0FwcFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==

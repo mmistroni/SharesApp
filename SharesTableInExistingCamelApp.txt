@@ -1,0 +1,100 @@
+
+
+mysql> desc MARKET_INDICATOR;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| MARKET_KEY     | varchar(40) | NO   | PRI |         |       |
+| VALUATION_DATE | datetime    | NO   | PRI | NULL    |       |
+| VALUE          | float       | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+
+NEWS_ITEM
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| TICKER         | varchar(20) | NO   | PRI | NULL    |       |
+| PUBLISHED_DATE | datetime    | NO   | PRI | NULL    |       |
+| CONTENT        | mediumtext  | YES  |     | NULL    |       |
+| TITLE          | mediumtext  | YES  |     | NULL    |       |
+| DESCRIPTION    | mediumtext  | YES  |     | NULL    |       |
+| LINK           | text        | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+
+PORTFOLIO
++---------------+-------------+------+-----+---------+-------+
+| Field         | Type        | Null | Key | Default | Extra |
++---------------+-------------+------+-----+---------+-------+
+| PORTFOLIO_ID  | varchar(20) | NO   | PRI | NULL    |       |
+| CREATED_BY    | varchar(10) | YES  |     | NULL    |       |
+| CREATION_DATE | date        | NO   |     | NULL    |       |
+| CASH          | double      | NO   |     | 0       |       |
++---------------+-------------+------+-----+---------+-------+
+
+
+desc RSS_FEED;
++-------------+--------------+------+-----+---------+-------+
+| Field       | Type         | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| DESCRIPTION | varchar(20)  | NO   | PRI | NULL    |       |
+| FEED_URL    | varchar(400) | YES  |     | NULL    |       |
+| TOKEN       | varchar(15)  | YES  |     | NULL    |       |
+| PROPERTY    | varchar(20)  | YES  |     | NULL    |       |
+
+
+
+mysql> desc SHARES;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| TICKER    | varchar(20) | NO   | PRI | NULL    |       |
+| NAME      | varchar(30) | NO   |     | NULL    |       |
+| PRICE     | double      | NO   |     | NULL    |       |
+| QTY       | bigint(20)  | NO   |     | NULL    |       |
+| PORTFOLIO | varchar(20) | NO   | MUL | NULL    |       |
+| INDUSTRY  | varchar(20) | YES  |     | NULL    |       |
+| SECTOR    | varchar(30) | YES  |     | NULL    |       |
+| CIK       | varchar(10) | NO   |     | N/A     |       |
+
+
+mysql> desc SHARE_PRICE;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| DATE         | datetime     | NO   | PRI | NULL    |       |
+| TICKER       | varchar(255) | NO   | PRI | NULL    |       |
+| LATEST_PRICE | double       | YES  |     | NULL    |       |
+| PEG          | double       | NO   |     | 0       |       |
+| EPS          | double       | NO   |     | 0       |       |
+| FWDEPS       | double       | NO   |     | 0       |       |
+| MVAVG        | double       | YES  |     | 0       |       |
+| MVAVG50      | double       | NO   |     | 0       |       |
++--------------+--------------+------+-----+---------+-------+
+
+
+mysql> desc TRADING_NOTES;
++-------+------------+------+-----+---------+----------------+
+| Field | Type       | Null | Key | Default | Extra          |
++-------+------------+------+-----+---------+----------------+
+| ID    | bigint(20) | NO   | PRI | NULL    | auto_increment |
+| DATE  | datetime   | YES  |     | NULL    |                |
+| NOTE  | mediumtext | YES  |     | NULL    |                |
++-------+------------+------+-----+---------+----------------+
+
+
+mysql> desc VOLATILITY;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| DATE       | datetime    | NO   | PRI | NULL    |       |
+| TICKER     | varchar(20) | NO   | PRI | NULL    |       |
+| VOLATILITY | double      | NO   |     | NULL    |       |
+| MEAN       | double      | NO   |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+
+
+
+
+
+
+
