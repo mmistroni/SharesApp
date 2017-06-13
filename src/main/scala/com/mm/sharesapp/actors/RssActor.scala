@@ -17,9 +17,14 @@ class RssActor(destination: ActorRef) extends Actor {
     
       def receive = {
 
-        case Share =>
-          log.info("fetching news for share....")
-          // TBD
+        case RSSRequest(ticker, url) =>
+          log.info("fetching rss for share....")
+          val rssData = rssService.fetchDataForCompany(ticker, url)
+          rssData match {
+            case Some(data) => destination ! data
+            case None => log.info(s"Nothing returned for $url") 
+          }
+          
         case message => log.info(s"Unexpected msg:$message")
     }
 

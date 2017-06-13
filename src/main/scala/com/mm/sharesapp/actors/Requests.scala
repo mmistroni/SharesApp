@@ -1,5 +1,7 @@
 package com.mm.sharesapp.actors
 
+import com.mm.sharesapp.entities._
+
 case object Start
 
 case object Shutdown
@@ -10,4 +12,6 @@ case object FetchStaticNews
 
 case class URLMessage(url:String)
 
-case class RSSData(data:RSSData)
+case class RSSRequest(ticker:String, url:String)
+
+case class AllShares(data:Seq[Share])

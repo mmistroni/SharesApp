@@ -93,8 +93,15 @@ mysql> desc VOLATILITY;
 +------------+-------------+------+-----+---------+-------+
 
 
+================== WORKFLOW
 
-
-
-
-
+MASTER ====>   RouterActor
+	                    ===>  SharesRouterActor
+	                    					===>SharePriceActor
+	                    								==> PersistenceActor
+	                    					===>RSSActor
+	                    								==> PersistenceActor
+	                    
+                        ===>  StaticNewsActor
+											  ==> RSSActor
+														==> PersistenceActor

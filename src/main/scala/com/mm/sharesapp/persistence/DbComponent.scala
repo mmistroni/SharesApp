@@ -3,11 +3,10 @@ package com.mm.sharesapp.persistence
 import sorm._
 import com.mm.sharesapp.entities._
 
-
 trait DbComponent {
   this:DbConfigComponent =>
   
-  val db:Instance = Db
+  val database:Instance = Db
   
   object Db extends Instance(
     entities = Set(

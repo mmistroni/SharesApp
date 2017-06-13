@@ -13,8 +13,8 @@ class MasterActor(router: ActorRef) extends Actor {
       case Start =>
         log.info("Master.Starting system")
         router ! FetchShares
-        router ! FetchStaticNews
-      
+        
+        
       case message => log.info(s"Unexpected msg:$message")
     }
 

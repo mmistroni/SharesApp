@@ -42,8 +42,7 @@ case class Share(ticker:String, name:String,
 case class SharePrice(asOfDate:org.joda.time.LocalDate, ticker:String,
                       latestPrice:Double, peg:Double,
                       eps:Double, fwdEps:Double,
-                      mvAvg:Double, mvAvg50:Double,
-                      marketCap:Double)
+                      mvAvg:Double, mvAvg50:Double)
 
 /**
  * Abstract trading notes, to document why a buy/sell action was done

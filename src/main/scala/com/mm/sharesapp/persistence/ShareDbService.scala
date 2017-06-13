@@ -1,19 +1,17 @@
 package com.mm.sharesapp.persistence
 
-import com.mm.sharesapp.entities.SharePrice
+import com.mm.sharesapp.entities.Share
 
-abstract class ShareDbService extends BaseDbService {
-  this:DbComponent =>
-    type DomainObject = SharePrice
-    
-    def insert(item:SharePrice):Boolean = {
-      db.save(item)
+class ShareDbService extends DbService {
+    type DomainObject = Share
+
+    def insert(item: Share): Boolean = {
+      Db.save(item)
       true
     }
-  
-    def findAll:Seq[SharePrice] = db.query[SharePrice].fetch()
-  
-    def findByExample(example:SharePrice):Seq[SharePrice] = null
-  
-  
-}
+
+    def findAll: Seq[Share] = Db.query[Share].fetch()
+
+    def findByExample(example: Share): Seq[Share] = null
+
+  }

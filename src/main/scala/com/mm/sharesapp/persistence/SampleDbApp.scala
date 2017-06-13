@@ -1,8 +1,24 @@
 package com.mm.sharesapp.persistence
 
 import com.mm.sharesapp.entities._
+import sorm._
 object SampleDbApp extends App {
 
+  object Db extends Instance(
+  entities = Set(
+    Entity[Portfolio](),
+    Entity[RssFeed](),
+    Entity[SharePrice](),
+    Entity[NewsItem]()
+  ),
+  url="jdbc:mysql://localhost/cameldb",
+  user="root",
+  password="m15tr0n1",
+    
+  initMode = InitMode.Create
+)
+
+  
   /**
   // Creating Portflio
   Db.save( Portfolio("portfolioId", "marco",

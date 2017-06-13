@@ -21,12 +21,12 @@ class MasterActorTest extends TestKit(ActorSystem("testSystem")) with ImplicitSe
   "A TestProbeTest" should "test TestProbes" in {
     val downloaderProbe = TestProbe() 
     val routerProbe = TestProbe()
-    val retriever = TestActorRef(Props(classOf[MasterActor], routerProbe.ref))
+    val retriever = TestActorRef(new MasterActor(routerProbe.ref))
         
     within(1000 millis) {
       retriever ! Start
       routerProbe.expectMsg(1000 millis, FetchShares)
-      routerProbe.expectMsg(1000 millis, FetchStaticNews)
+      
     }    
   }
 }

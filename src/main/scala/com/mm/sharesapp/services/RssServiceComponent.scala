@@ -2,21 +2,18 @@ package com.mm.sharesapp.services
 
 import scala.io._
 import scala.xml._
-import beans.BeanProperty
 import java.util.ArrayList
 import collection.mutable._
-import scala.actors._
-import scala.actors.Actor._
 import com.mm.sharesapp.entities.RssFeedData
 
 import scala.util.{Try, Success, Failure}
 
 trait RssServiceComponent {
 
-  val dataService = new ScalaRssFinancialDataReader()
+  val rssService = new RssService()
   
   
-  class ScalaRssFinancialDataReader {
+  class RssService extends com.mm.sharesapp.util.LogHelper {
 
     private val YAHOO_URL =
       "http://finance.yahoo.com/rss/headline?s=%s"
@@ -27,10 +24,10 @@ trait RssServiceComponent {
       Try(XML.load(url))
 
     def fetchDataForCompany(ticker:String, url: String): Option[RssFeedData] = {
-      
+      logger.info(s"Fetching data from URL $url")
       fetchRSS(url) match {
-        case Success(xmlElem) => Some(buildRssData(ticker, xmlElem))
-        case Failure(exception) => None
+        case Success(xmlElem) => logger.info("Success, we got something..");Some(buildRssData(ticker, xmlElem))
+        case Failure(exception) => logger.info("Nohting returned...");None
       }
     }
 
