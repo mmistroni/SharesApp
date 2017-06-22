@@ -9,7 +9,7 @@ import com.mm.sharesapp.util.MapperComponent
 
 
 class RouterActor(routees: Seq[ActorRef],
-    shareService:ShareDbService) extends Actor {
+    shareService:ShareDbService) extends Actor  {
     
     val log = Logging(context.system, this)
     
@@ -26,10 +26,8 @@ class RouterActor(routees: Seq[ActorRef],
 
   }
 
-class CakeRouterActor(routees: Seq[ActorRef]) extends Actor {
+class CakeRouterActor(routees: Seq[ActorRef]) extends Actor with ActorLogging {
   this:PersistenceServiceComponent =>
-    
-    val log = Logging(context.system, this)
     
     def fetchAll = persistenceService.findAllShares
     
@@ -39,17 +37,14 @@ class CakeRouterActor(routees: Seq[ActorRef]) extends Actor {
         log.info("sending messages for all shares....")
         val allShares = fetchAll
         for (routee <- routees) { routee ! AllShares(data=allShares)}
-      case message => log.info(s"Unexpected msg:$message")
+      case message => log.info(s"CakeRouterActorUnexpected msg:$message")
     }
 
   }
 
 class SharesRouterActor(sharePriceActor: ActorRef,
-                        rssActor:ActorRef) extends Actor {
+                        rssActor:ActorRef) extends Actor  with ActorLogging{
     this:MapperComponent =>
-    
-    val log = Logging(context.system, this)
-    
     
     def _sendToPrices(shares:Seq[Share]) = { 
       log.info("sending sharePrice service for all shares....")
@@ -70,7 +65,7 @@ class SharesRouterActor(sharePriceActor: ActorRef,
         _sendToPrices(data)
         _sendToNews(data)
         
-      case message => log.info(s"Unexpected msg:$message")
+      case message => log.info(s"ShareRuoterActorUnexpected msg:$message")
     }
 
   }

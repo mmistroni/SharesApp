@@ -7,23 +7,21 @@ import com.mm.sharesapp.services.SharePriceComponent
 import com.mm.sharesapp.entities.Share
 
 /**
- * Fetches RSS daa
- */
-class SharePriceActor(destination: ActorRef) extends Actor {
+ * Fetches Share prices
+ *  */
+class SharePriceActor(destination: ActorRef) extends Actor with ActorLogging{
     sharePriceComponent:SharePriceComponent =>
-      
-      val log = Logging(context.system, this)
       
       def receive = {
         case share:Share =>
-          log.info("fetching rss for share....")
+          log.info(s"fetching prices for share ${share.ticker}....")
           val sharePrice = sharePriceService.downloadSharePrice(share.ticker)
           sharePrice match {
-            case Some(price) => destination ! price
+            case Some(price) => log.info(s"We got $price.Sending it thru");destination ! price
             case None        => log.info(s"Unable to fetch data for ${share.ticker}")
           }
-          destination ! sharePrice
-        case message => log.info(s"Unexpected msg:$message")
+          
+        case message => log.info(s"SharePriceActorsUnexpected msg:$message")
     }
 
   }

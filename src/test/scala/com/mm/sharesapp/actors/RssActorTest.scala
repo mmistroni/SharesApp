@@ -35,7 +35,7 @@ class RssActorTest extends TestKit(ActorSystem("testSystem")) with ImplicitSende
       // we only see the component here, not outside, So we need to find a way to test
       // the dependency
       override val rssService = Mockito.mock(classOf[this.RssService])
-      when(rssService.fetchDataForCompany(ticker, url)).thenReturn(Some(mockRssData))
+      when(rssService.fetchDataForCompany(ticker, url)).thenReturn(Seq(mockRssData))
     }
     
     class MockRssActor(destination:ActorRef) extends RssActor(destination) with MockRssServiceComponent
@@ -63,7 +63,7 @@ class RssActorTest extends TestKit(ActorSystem("testSystem")) with ImplicitSende
       // we only see the component here, not outside, So we need to find a way to test
       // the dependency
       override val rssService = Mockito.mock(classOf[this.RssService])
-      when(rssService.fetchDataForCompany(ticker, url)).thenReturn(None)
+      when(rssService.fetchDataForCompany(ticker, url)).thenReturn(Seq[RssFeedData]())
     }
     
     class MockRssActor(destination:ActorRef) extends RssActor(destination) with MockRssServiceComponent

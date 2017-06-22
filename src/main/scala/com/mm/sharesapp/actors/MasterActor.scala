@@ -7,7 +7,7 @@ import akka.event.Logging
 
 class MasterActor(router: ActorRef) extends Actor {
     
-    val log = Logging(context.system, this)
+    val log = Logging(context.system.eventStream, this)
     def receive = {
 
       case Start =>
@@ -19,3 +19,8 @@ class MasterActor(router: ActorRef) extends Actor {
     }
 
   }
+
+object MasterActor {
+  
+  def props(router:ActorRef):Props = Props(new MasterActor(router))
+}

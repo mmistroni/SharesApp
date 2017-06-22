@@ -44,7 +44,8 @@ libraryDependencies += "com.h2database" % "h2" % "1.3.168"
 libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.37"
 libraryDependencies += "org.sorm-framework" % "sorm" % "0.3.21"
 libraryDependencies += "com.github.tototoshi" %% "scala-csv" % "1.3.3"
-
+libraryDependencies +=  "org.squeryl" %% "squeryl" % "0.9.8"
+libraryDependencies +=	"mysql" % "mysql-connector-java" % "5.1.10"
   
 unmanagedJars in Compile ++= {
   val libs = baseDirectory.value / "lib"
@@ -52,5 +53,6 @@ unmanagedJars in Compile ++= {
 }
 
 resolvers += "softprops-maven" at "http://dl.bintray.com/content/softprops/maven"
+resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases"
 
 

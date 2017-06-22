@@ -9,23 +9,23 @@ import com.mm.sharesapp.entities.Share
 /**
  * Fetches RSS daa
  */
-class RssActor(destination: ActorRef) extends Actor {
+class RssActor(destination: ActorRef) extends Actor with ActorLogging{
     rssServiceComponent:RssServiceComponent =>
       
-      val log = Logging(context.system, this)
-    
     
       def receive = {
 
         case RSSRequest(ticker, url) =>
           log.info("fetching rss for share....")
           val rssData = rssService.fetchDataForCompany(ticker, url)
-          rssData match {
-            case Some(data) => destination ! data
-            case None => log.info(s"Nothing returned for $url") 
-          }
+          log.info(s"We got ${rssData.size} news for $url") 
+          rssData.foreach(rssMessage =>
+              {
+                log.info("sending to persistence.");  
+                destination ! rssMessage 
+              })
           
-        case message => log.info(s"Unexpected msg:$message")
+        case message => log.info(s"RssActorUnexpected msg:$message")
     }
 
   }

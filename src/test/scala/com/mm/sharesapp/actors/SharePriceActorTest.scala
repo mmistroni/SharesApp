@@ -38,8 +38,7 @@ class SharePriceActorTest extends TestKit(ActorSystem("testSystem")) with Implic
                                     eps=3.0, 
                                     fwdEps=4.0,
                                     mvAvg=5.0, 
-                                    mvAvg50=6.0,
-                                    marketCap=Double.NaN)
+                                    mvAvg50=6.0)
                                       
     val destinationActor = TestProbe()
       

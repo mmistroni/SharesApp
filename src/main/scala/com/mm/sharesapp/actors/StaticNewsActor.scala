@@ -6,21 +6,20 @@ import akka.event.Logging
 import com.mm.sharesapp.persistence.PersistenceServiceComponent
 import com.mm.sharesapp.entities._
 
-class StaticNewsActor(rssActorRef:ActorRef) extends Actor {
+class StaticNewsActor(rssActorRef:ActorRef) extends Actor  with ActorLogging{
   this:PersistenceServiceComponent =>
    
-    val log = Logging(context.system, this)
-    
     def fetchAll = persistenceService.findAllRssFeed
     
     def receive = {
 
       case AllShares(_) =>
         log.info("Fetching Static Shares.....")
-        fetchAll.map { rssFeed => RSSRequest(ticker=rssFeed.description, url=rssFeed.feedUrl) }
-                .foreach { rssRequest => rssActorRef ! rssRequest }
+        val allRssData = fetchAll.map { rssFeed => RSSRequest(ticker=rssFeed.description, url=rssFeed.feedUrl) }
+        log.info(s"We got ${allRssData.size} news")
+        allRssData.foreach { rssRequest => rssActorRef ! rssRequest }
         
-      case message => log.info(s"Unexpected msg:$message")
+      case message => log.info(s"StaticNewsUnexpected msg:$message")
     }
     
 }
