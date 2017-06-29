@@ -51,12 +51,12 @@ trait SharePriceComponent  {
   }
   
   private object SharePriceConverter {
-    private val format = org.joda.time.format.DateTimeFormat.forPattern("MM/dd/yyyy")
+    private val format = new java.text.SimpleDateFormat("MM/dd/yyyy")
     def convertToSharePrice(dataList:List[String]):Try[SharePrice] = {
       Try {
         
         SharePrice(
-            org.joda.time.LocalDate.parse(dataList(2), format), // asOfDate
+            format.parse(dataList(2)), // asOfDate
             dataList(0),    //ticker
             getDouble(dataList(1)),   // price
             getDouble(dataList(7)), // peg
@@ -84,7 +84,7 @@ trait FakeSharePriceComponent extends SharePriceComponent with DataDownloaderCom
     val historicalSharesUrl = "...."
     
     def downloadSharePrice(ticker:String):Option[SharePrice] = {
-      Some(SharePrice(asOfDate= new org.joda.time.LocalDate(), 
+      Some(SharePrice(asOfDate= new java.util.Date(), 
                                     ticker="test",
                                     latestPrice=1.0,
                                     peg = 2.0,
@@ -95,7 +95,7 @@ trait FakeSharePriceComponent extends SharePriceComponent with DataDownloaderCom
     }
     
     def downloadHistoricalPrices(ticker:String):Seq[SharePrice] = {
-      val templateSharePrice = SharePrice(asOfDate= new org.joda.time.LocalDate(), 
+      val templateSharePrice = SharePrice(asOfDate= new java.util.Date(), 
                                     ticker="test",
                                     latestPrice=1.0,
                                     peg = 2.0,

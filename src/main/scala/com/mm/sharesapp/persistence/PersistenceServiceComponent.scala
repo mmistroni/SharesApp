@@ -1,6 +1,7 @@
 package com.mm.sharesapp.persistence
 import com.mm.sharesapp.entities._
 import sorm._
+import org.squeryl.PrimitiveTypeMode._
 
 trait PersistenceServiceComponent {
   // We need to inject DbComponent to expose the db instance.
@@ -12,17 +13,17 @@ trait PersistenceServiceComponent {
   trait PersistenceService {
     // Let's use a coarse-grained service for now as we dont have many CRUD operations
     
-    def insertShare(item: Share): Boolean
+    def insertShare(item: Share): Boolean  // squeryl sorted
 
-    def findAllShares: Seq[Share] 
+    def findAllShares: Seq[Share]          // squeryl sorted
     
-    def findAllRssFeed:Seq[RssFeed]
+    def findAllRssFeed:Seq[RssFeed]        // squeryl sorted
     
-    def insertNews(item:NewsItem):Boolean
+    def insertNews(item:NewsItem):Boolean  // not sorted
     
-    def insertRssFeedData(rss:RssFeedData):Boolean
+    def insertRssFeedData(rss:RssFeedData):Boolean // squeryl sorted
     
-    def insertSharePrice(item:SharePrice):Boolean 
+    def insertSharePrice(item:SharePrice):Boolean  // squeryl sorted
     
     def insertTradingNotes(note:TradingNotes):Boolean
     
@@ -78,6 +79,8 @@ trait FakePersistenceServiceComponent extends PersistenceServiceComponent {
   }
  
 }
+
+
 
 
 

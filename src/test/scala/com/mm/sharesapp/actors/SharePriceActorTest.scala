@@ -31,7 +31,7 @@ class SharePriceActorTest extends TestKit(ActorSystem("testSystem")) with Implic
                   portfolio=null, industry=null,
                   sector=null, cik="")
 
-    val mockSharePrice = SharePrice(asOfDate= new org.joda.time.LocalDate(), 
+    val mockSharePrice = SharePrice(asOfDate= new java.util.Date(), 
                                     ticker="test",
                                     latestPrice=1.0,
                                     peg = 2.0,
