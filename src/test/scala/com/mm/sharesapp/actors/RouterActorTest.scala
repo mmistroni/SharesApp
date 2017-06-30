@@ -84,7 +84,7 @@ class RouterActorTest extends TestKit(ActorSystem("testSystem")) with ImplicitSe
     
 
     within(1000 millis) {
-      routerActor ! Start
+      routerActor ! FetchShares
       shareActor.expectMsg(1000 millis, expectedMsg)
       newsActor.expectMsg(1000 millis, expectedMsg)
     }

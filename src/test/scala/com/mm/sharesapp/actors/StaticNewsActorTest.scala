@@ -47,7 +47,7 @@ class StaticNewsActorTest extends TestKit(ActorSystem("testSystem")) with Implic
     val staticNewsActor = TestActorRef(
       new MockStaticNewsActor(rssActor.ref))
 
-    val expectedMsg = RSSRequest(ticker=null, url=url)
+    val expectedMsg = RSSRequest(ticker=description, url=url)
       
     within(1000 millis) {
       staticNewsActor ! AllShares(data=Seq[Share]())
