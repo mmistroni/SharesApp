@@ -1,8 +1,14 @@
 package com.mm.sharesapp.persistence
-import org.squeryl.{Session, SessionFactory}
+
+import org.squeryl.{Session, SessionFactory, AbstractSession}
 import org.squeryl.adapters.{MySQLAdapter,MySQLInnoDBAdapter}
 import org.squeryl.PrimitiveTypeMode._
 
+trait BaseDBConnector {
+
+  def sessionCreator() : Option[() => AbstractSession]
+
+}
 
 trait DBConnector {
   Class.forName("com.mysql.jdbc.Driver");

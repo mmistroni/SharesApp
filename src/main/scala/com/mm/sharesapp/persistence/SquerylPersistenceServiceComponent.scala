@@ -15,8 +15,7 @@ trait SquerylPersistenceServiceComponent extends PersistenceServiceComponent {
 
     def findAllShares2 = {
       withTransaction  {
-        val res = from(SharesSchema.shares)(share => select(share))// replace with Iterator. we dont
-        res.map(s => s.copy()).toSeq
+        from(SharesSchema.shares)(share => select(share)).toList
       }
     }
 

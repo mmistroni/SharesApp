@@ -1,6 +1,6 @@
 package com.mm.sharesapp.actors
 
-import com.mm.sharesapp.persistence.FakePersistenceServiceComponent
+import com.mm.sharesapp.persistence.{SquerylPersistenceServiceComponent, FakePersistenceServiceComponent}
 import com.mm.sharesapp.services.{RssServiceComponent, SharePriceComponent, DataDownloaderComponent}
 import com.mm.sharesapp.util.SharesMapperComponent
 import com.mm.sharesapp.services.SharePriceComponent
@@ -19,12 +19,12 @@ object FakeActorFactory  {
   class RealSharesRouterActor(sharePriceActor:ActorRef, newsActor:ActorRef) 
         extends SharesRouterActor(sharePriceActor, newsActor) with SharesMapperComponent
   // Fake actors
-  class FakePersistenceActor extends PersistenceActor with FakePersistenceServiceComponent
+  class FakePersistenceActor extends PersistenceActor with SquerylPersistenceServiceComponent
   class FakeRssActor(destinationActor:ActorRef) extends RssActor(destinationActor) with RssServiceComponent
   class FakeStaticNewsActor(destinationActor:ActorRef) extends StaticNewsActor(destinationActor)
         with FakePersistenceServiceComponent
   class FakeSharePriceActor(destinationActor:ActorRef) extends SharePriceActor(destinationActor) with  RealSharePriceComponent   
-  class FakeCakeRouterActor(routees:Seq[ActorRef]) extends CakeRouterActor(routees) with FakePersistenceServiceComponent
+  class FakeCakeRouterActor(routees:Seq[ActorRef]) extends CakeRouterActor(routees) with SquerylPersistenceServiceComponent
   
   def shareRouterActor(sharePriceActor:ActorRef, newsActor:ActorRef):Props = 
           Props(new RealSharesRouterActor(sharePriceActor, newsActor))

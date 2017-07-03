@@ -61,10 +61,16 @@ case class Share(ticker:String, name:String,
  * Abstract share price information for a share
  * SQUERYL-SORTED
  */
-case class SharePrice(val asOfDate: java.util.Date, val ticker:String,
-                      val latestPrice:Double, val peg:Double,
-                      val eps:Double, val fwdEps:Double,
-                      val mvAvg:Double,val mvAvg50:Double) 
+case class SharePrice(@Column("DATE")
+                      val asOfDate: java.util.Date, 
+                      val ticker:String,
+                      @Column("LATEST_PRICE")
+                      val latestPrice:Double, 
+                      val peg:Double,
+                      val eps:Double, 
+                      val fwdEps:Double,
+                      val mvAvg:Double,
+                      val mvAvg50:Double) 
                 extends KeyedEntity[CompositeKey2[java.util.Date, String]] {
   
   def id = compositeKey(asOfDate, ticker)

@@ -6,7 +6,7 @@ object Utilities {
   def getDouble(doubleStr:String):Double = 
     allCatch opt doubleStr.toDouble match {
     case Some(doubleNum) => doubleNum
-    case _ => Double.NaN
+    case _ => 0.0
   }
   
   

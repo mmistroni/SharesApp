@@ -46,6 +46,7 @@ libraryDependencies += "org.sorm-framework" % "sorm" % "0.3.21"
 libraryDependencies += "com.github.tototoshi" %% "scala-csv" % "1.3.3"
 libraryDependencies +=  "org.squeryl" %% "squeryl" % "0.9.8"
 libraryDependencies +=	"mysql" % "mysql-connector-java" % "5.1.10"
+libraryDependencies +=  "com.h2database" % "h2" % "1.2.127" % "test"
   
 unmanagedJars in Compile ++= {
   val libs = baseDirectory.value / "lib"
