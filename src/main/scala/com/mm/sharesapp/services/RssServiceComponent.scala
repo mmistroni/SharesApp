@@ -23,7 +23,7 @@ trait RssServiceComponent {
       Try(XML.load(url))
 
     def fetchDataForCompany(ticker:String, url: String): Seq[RssFeedData] = {
-      logger.info(s"Fetching data from URL $url")
+      logger.debug(s"Fetching data from URL $url")
       fetchRSS(url) match {
         case Success(xmlElem) => logger.info("Success, we got something..");buildRssData(ticker, xmlElem)
         case Failure(exception) => logger.info("Nohting returned...");Seq[RssFeedData]()

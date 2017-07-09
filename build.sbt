@@ -10,7 +10,7 @@ scalacOptions += "-target:jvm-1.7"
 assembleArtifact in packageScala := true
 assembleArtifact in packageDependency := true
 assemblyJarName in assembly := "sharesapp.jar"
-
+parallelExecution in Test := false
 mainClass in assembly :=   Some("EdgarActorRunner")
 
 assemblyMergeStrategy in assembly := {
@@ -46,8 +46,9 @@ libraryDependencies += "org.sorm-framework" % "sorm" % "0.3.21"
 libraryDependencies += "com.github.tototoshi" %% "scala-csv" % "1.3.3"
 libraryDependencies +=  "org.squeryl" %% "squeryl" % "0.9.8"
 libraryDependencies +=	"mysql" % "mysql-connector-java" % "5.1.10"
-libraryDependencies +=  "com.h2database" % "h2" % "1.2.127" % "test"
-  
+//libraryDependencies +=  "com.h2database" % "h2" % "1.2.127" % "test"
+libraryDependencies +=  "org.apache.derby" % "derby" % "10.7.1.1" % "test"  
+
 unmanagedJars in Compile ++= {
   val libs = baseDirectory.value / "lib"
   ((libs) ** "*.jar").classpath

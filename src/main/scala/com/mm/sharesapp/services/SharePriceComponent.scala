@@ -3,6 +3,7 @@ package com.mm.sharesapp.services
 import com.mm.sharesapp.entities.SharePrice
 import scala.util.{Try, Success, Failure}
 import com.mm.sharesapp.util.Utilities._
+import java.util.Calendar
 
 
 /**
@@ -53,12 +54,22 @@ trait SharePriceComponent  {
   private object SharePriceConverter {
     private val format = new java.text.SimpleDateFormat("MM/dd/yyyy")
     def convertToSharePrice(dataList:List[String]):Try[SharePrice] = {
+      def convertToDate(dateString:String):java.util.Date = {
+        val date = format.parse(dateString)
+        val calendar = Calendar.getInstance()
+        calendar.add(Calendar.MONTH, -1)
+        if (date.before(calendar.getTime())) {
+          throw new IllegalArgumentException(s"Invalid date:$dateString") 
+        } else date
+        
+      }
+      
       Try {
         
         SharePrice(
-            format.parse(dataList(2)), // asOfDate
+            convertToDate(dataList(2)), // asOfDate
             dataList(0),    //ticker
-            getDouble(dataList(1)),   // price
+            dataList(1).toDouble,   // price
             getDouble(dataList(7)), // peg
             getDouble(dataList(3)),  //currenteps
             getDouble(dataList(4)),  //forwardeps
@@ -66,6 +77,9 @@ trait SharePriceComponent  {
             getDouble(dataList(6)))  //movingAvg50      
       }
     }
+    
+    
+    
     
     def convertToHistoricalPrices(lines:List[List[String]]):Try[List[SharePrice]] = null
     

@@ -18,4 +18,10 @@ object SharesSchema extends Schema {
   val rssFeedDatas = table[RssFeedData]("newsitem")
   val rssFeeds = table[RssFeed]("rssfeed")
   
+  override def drop = {
+    println("dropping schema..")
+    Session.cleanupResources
+    super.drop
+  }
+  
 }

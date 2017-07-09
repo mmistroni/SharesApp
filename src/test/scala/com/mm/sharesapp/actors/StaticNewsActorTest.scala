@@ -29,7 +29,7 @@ class StaticNewsActorTest extends TestKit(ActorSystem("testSystem")) with Implic
     val description = "testDesc"
     val token = "testToken"
     val property = "Property"
-    val mockRssFeed = RssFeed(description, url, token, property)
+    val mockRssFeed = RssFeed(description, url, Some(token), Some(property))
     val rssActor = TestProbe()
     
     

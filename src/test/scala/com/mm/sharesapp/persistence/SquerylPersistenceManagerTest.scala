@@ -4,7 +4,7 @@ import org.junit._
 import org.junit.Assert._
 import org.scalatest.{ BeforeAndAfterEach, BeforeAndAfterAll }
 import org.junit.runner.RunWith
-import org.scalatest.{ FlatSpecLike }
+import org.scalatest.{ FlatSpecLike, FunSuite }
 import org.mockito._
 import org.mockito.Mockito._
 import com.mm.sharesapp.services.{ SharePriceComponent, DataDownloaderComponent, SharePriceService }
@@ -19,9 +19,12 @@ import org.squeryl.{ Session, SessionFactory, AbstractSession }
 import org.squeryl.adapters.{ MySQLAdapter, MySQLInnoDBAdapter }
 import org.squeryl.PrimitiveTypeMode._
 import org.squeryl.adapters.H2Adapter
+import org.squeryl.Schema
+import org.squeryl.adapters.DerbyAdapter
 import java.sql.Connection
 
-trait H2_ConnectionCommon extends DBConnector {
+/**
+trait H2_ConnectionCommon extends BaseDBConnector {
   def connectToDbCommon(sessionFunc: Connection => AbstractSession): Option[() => AbstractSession] = {
     {
       Class.forName("org.h2.Driver")
@@ -36,8 +39,27 @@ trait H2_ConnectionCommon extends DBConnector {
   }
 }
 
-trait H2_Connection extends DBConnector with H2_ConnectionCommon {
-  def sessionCreator(): Option[() => AbstractSession] = connectToDbCommon(Session.create(_, new H2Adapter))
+**/
+
+trait DerbyConnectionCommon extends BaseDBConnector {
+  def connectToDbCommon(sessionFunc: Connection => AbstractSession): Option[() => AbstractSession] = {
+    {
+      Class.forName("org.h2.Driver")
+      Some(() => {
+        val c = java.sql.DriverManager.getConnection(
+          "jdbc:derby:memory:test;create=true",
+          "app",
+          "")
+        c.setAutoCommit(false)
+        sessionFunc(c)
+      })
+    }
+  }
+}
+
+
+trait H2_Connection extends BaseDBConnector with DerbyConnectionCommon {
+  def sessionCreator(): Option[() => AbstractSession] = connectToDbCommon(Session.create(_, new DerbyAdapter))
 }
 
 class TestData {
@@ -48,80 +70,39 @@ class TestData {
       -1.0, -2.0,
       -3.0, -4.0,
       -4.0, -5.0))
+  
+  val staticFeedsTests  = rssFeeds.insert(RssFeed(
+                        description="ECONOMICS-UK",
+                        feedUrl="https://www.tradingeconomics.com/uk/rss",
+                        token=None, property=None)
+                          )
+  
 }
 
-// Scrap this, Having a connection and a transaction we should be able to insert
-// data into the database
+class SquerylPersistenceServiceTest extends SchemaTester with QueryTester with RunTestsInsideTransaction 
+        with Matchers  with BeforeAndAfterAll with H2_Connection {
+  val schema = SharesSchema
+  override def prePopulate = {
+     println("Pre populating.............")
+     insertData
+  }
 
-@RunWith(classOf[JUnitRunner])
-class SquerylPersistenceServiceTest extends DbTestBase with Matchers with H2_Connection with BeforeAndAfterAll
-    with BeforeAndAfterEach {
-
-  def prePopulate = {
-    SharesSchema.create
+  def insertData = {
     val testData = new TestData()
   }
-
-  override def beforeAll(): Unit = {
-    super.beforeAll()
-
-    sessionCreator().foreach { _ =>
-      transaction {
-        SharesSchema.drop
-        
-      }
-    }
-
+  
+  
+  test("Queries ") {
+    lazy val data = from(SharesSchema.sharePrices)(sharePrice => select(sharePrice)).toList
+    data.size should be(1)
+    lazy val feeds = from(SharesSchema.rssFeeds)(feed => select(feed)).toList
+    feeds.size should be(1)
+    feeds(0).description should be("ECONOMICS-UK")
+    feeds(0).feedUrl should be("https://www.tradingeconomics.com/uk/rss")
   }
-
-  override def afterAll(): Unit = {
-    sessionCreator().foreach { _ =>
-      transaction {
-        SharesSchema.drop
-      }
-    }
-  }
-
-  "The SquerylPersistenceManagerTest" - {
-    "when calling insertShare with a Share object " - {
-      "should insert and be able to find data in the database" in {
-
-        transaction {
-          // now retrieving it
-          prePopulate
-          val data = from(SharesSchema.sharePrices)(sharePrice => select(sharePrice)).toList
-
-          //data.size should be(1)
-          //data(0).ticker should be("TestTicker")
-
-        }
-      }
-    }
-  }
-
+  
+  
+  
 }
 
-abstract class DbTestBase extends FreeSpec with BeforeAndAfterAll with BeforeAndAfterEach with Matchers
-    with H2_Connection {
-
-  def isIgnored(testName: String) =
-    sessionCreator().isEmpty || ignoredTests.exists(_ == testName)
-
-  def ignoredTests: List[String] = Nil
-
-  override def beforeAll() = {
-    val c = sessionCreator()
-    if (c.isDefined) {
-      SessionFactory.concreteFactory = c
-    }
-  }
-
-  override protected def runTest(testName: String, args: org.scalatest.Args): org.scalatest.Status = {
-    if (isIgnored(testName))
-      org.scalatest.SucceededStatus
-    else
-      super.runTest(testName, args)
-  }
-
-}
 

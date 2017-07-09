@@ -1,7 +1,7 @@
 package com.mm.sharesapp.entities
 import org.squeryl.annotations.Column
 import org.squeryl.KeyedEntity
-import org.squeryl.dsl.CompositeKey2
+import org.squeryl.dsl.{CompositeKey2, CompositeKey3, CompositeKey4}
 import org.squeryl.PrimitiveTypeMode._ 
 import scala.util.Random
 import org.joda.time.LocalDate
@@ -37,7 +37,10 @@ case class Portfolio(portfolioId:String, createdBy:String,
 case class RssFeed(description:String, 
                    @Column("FEED_URL")
                    feedUrl:String,
-                   token:String, property:String)
+                   token:Option[String], property:Option[String]) {
+  def this() = this("testdesc", "testURL", Some(""), Some(""))
+
+}
 
 
 /**
@@ -105,9 +108,9 @@ case class RssFeedData(ticker:String,
 	    					       title:String, 
 	    					       val content:String,
 	    					       val description:String,
-	    					       val link : String) extends KeyedEntity[CompositeKey2[String, java.sql.Timestamp]] {
+	    					       val link : String) extends KeyedEntity[CompositeKey3[String, java.sql.Timestamp, String]] {
   
-  def id = compositeKey(ticker, date)
+  def id = compositeKey(ticker, date, title)
   
   def this() = this("testTicker", new java.sql.Timestamp(new java.util.Date().getTime()),
           "test titel", "test desc",
