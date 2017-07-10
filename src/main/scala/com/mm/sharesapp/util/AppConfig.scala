@@ -8,10 +8,10 @@ object AppConfig {
   private lazy val root = config.getConfig("my_app")
 
   object DbConfig {
-    private val httpConfig = config.getConfig("db")
+    private val dbConfig = config.getConfig("db")
 
-    lazy val url = httpConfig.getString("host")
-    lazy val username = httpConfig.getInt("username")
-    lazy val password = httpConfig.getInt("password")
+    lazy val url = dbConfig.getString("host")
+    lazy val username = dbConfig.getString("username")
+    lazy val password = dbConfig.getString("password")
   }
 }

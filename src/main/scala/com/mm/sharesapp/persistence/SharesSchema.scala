@@ -12,11 +12,11 @@ import com.mm.sharesapp.entities._
 
 object SharesSchema extends Schema {
   
-  val edgarNews = table[EdgarNews]("edgar_news")
-  val sharePrices = table[SharePrice]("shareprice")
-  val shares = table[Share]("shares")
-  val rssFeedDatas = table[RssFeedData]("newsitem")
-  val rssFeeds = table[RssFeed]("rssfeed")
+  val edgarNews = table[EdgarNews]("EDGAR_NEWS")
+  val sharePrices = table[SharePrice]("SHARE_PRICE")
+  val shares = table[Share]("SHARES")
+  val rssFeedDatas = table[RssFeedData]("NEWS_ITEM")
+  val rssFeeds = table[RssFeed]("RSS_FEED")
   
   override def drop = {
     println("dropping schema..")
