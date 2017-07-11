@@ -1,6 +1,6 @@
 <configuration>
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <file>logs/edgar-retriever.log</file>
+        <file>logs/shares-app.log</file>
         <append>true</append>
         <!-- encoders are assigned the type
              ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
@@ -20,6 +20,6 @@
     
 
     <root level="INFO">
-        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
     </root>
 </configuration>

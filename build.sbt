@@ -11,7 +11,7 @@ assembleArtifact in packageScala := true
 assembleArtifact in packageDependency := true
 assemblyJarName in assembly := "sharesapp.jar"
 parallelExecution in Test := false
-mainClass in assembly :=   Some("SharesRunner")
+mainClass in assembly :=   Some("com.mm.sharesapp.actors.SharesRunner")
 
 assemblyMergeStrategy in assembly := {
   case PathList("javax", "mail", xs @ _*)         => MergeStrategy.first

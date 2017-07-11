@@ -1,8 +1,10 @@
 package com.mm.sharesapp.actors
 
 import akka.actor._
-// TODO Find a better way to get classes
 import FakeActorFactory._
+import scala.concurrent.duration.Duration;
+import java.util.concurrent.TimeUnit;
+    
 
 object SharesRunner extends App {
   
@@ -33,6 +35,13 @@ object SharesRunner extends App {
   val masterActor = system.actorOf(Props(classOf[MasterActor], routerActor) ,"Master")  // master actor
   
   println("Share Runner.... Kicking off application")
+  
+  
+  // Timer
+  // Creating Timer
+  system.scheduler.scheduleOnce(
+        Duration.create(15, TimeUnit.MINUTES), 
+        masterActor, Shutdown)( system.dispatcher)
   
   masterActor ! Start
   

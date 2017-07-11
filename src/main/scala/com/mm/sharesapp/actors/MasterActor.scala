@@ -14,6 +14,10 @@ class MasterActor(router: ActorRef) extends Actor {
         log.info("Master.Starting system")
         router ! FetchShares
         
+      case Shutdown =>
+        log.info(" SHUTTING DOWN NOW........")
+        context.system.shutdown()
+        
         
       case message => log.info(s"Unexpected msg:$message")
     }
