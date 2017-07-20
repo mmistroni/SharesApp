@@ -63,6 +63,7 @@ class SharePriceActorTest extends TestKit(ActorSystem("testSystem")) with Implic
       destinationActor.expectMsg(1000 millis, mockSharePrice)
       
     }
+    
   }
 
 }

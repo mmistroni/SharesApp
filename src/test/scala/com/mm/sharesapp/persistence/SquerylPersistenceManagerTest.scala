@@ -23,44 +23,6 @@ import org.squeryl.Schema
 import org.squeryl.adapters.DerbyAdapter
 import java.sql.Connection
 
-/**
-trait H2_ConnectionCommon extends BaseDBConnector {
-  def connectToDbCommon(sessionFunc: Connection => AbstractSession): Option[() => AbstractSession] = {
-    {
-      Class.forName("org.h2.Driver")
-      Some(() => {
-        val c = java.sql.DriverManager.getConnection(
-          "jdbc:h2:mem:test",
-          "h2.user",
-          "h2.password")
-        sessionFunc(c)
-      })
-    }
-  }
-}
-
-**/
-
-trait DerbyConnectionCommon extends BaseDBConnector {
-  def connectToDbCommon(sessionFunc: Connection => AbstractSession): Option[() => AbstractSession] = {
-    {
-      Class.forName("org.h2.Driver")
-      Some(() => {
-        val c = java.sql.DriverManager.getConnection(
-          "jdbc:derby:memory:test;create=true",
-          "app",
-          "")
-        c.setAutoCommit(false)
-        sessionFunc(c)
-      })
-    }
-  }
-}
-
-
-trait H2_Connection extends BaseDBConnector with DerbyConnectionCommon {
-  def sessionCreator(): Option[() => AbstractSession] = connectToDbCommon(Session.create(_, new DerbyAdapter))
-}
 
 class TestData {
   import SharesSchema._
@@ -80,7 +42,7 @@ class TestData {
 }
 
 class SquerylPersistenceServiceTest extends SchemaTester with QueryTester with RunTestsInsideTransaction 
-        with Matchers  with BeforeAndAfterAll with H2_Connection {
+        with Matchers  with BeforeAndAfterAll with Derby_Connection {
   val schema = SharesSchema
   override def prePopulate = {
      println("Pre populating.............")

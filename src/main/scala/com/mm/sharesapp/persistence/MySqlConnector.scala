@@ -5,13 +5,8 @@ import org.squeryl.{Session, SessionFactory, AbstractSession}
 import org.squeryl.adapters.{MySQLAdapter,MySQLInnoDBAdapter}
 import org.squeryl.PrimitiveTypeMode._
 
-trait BaseDBConnector {
 
-  def sessionCreator() : Option[() => AbstractSession]
-
-}
-
-trait DBConnector {
+trait MySqlConnector {
   Class.forName("com.mysql.jdbc.Driver");
     SessionFactory.concreteFactory = Some(() =>
       Session.create(

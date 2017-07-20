@@ -61,7 +61,6 @@ class SharesRouterActor(sharePriceActor: ActorRef,
     def receive = {
 
       case AllShares(data) =>
-        // TODO: clean distinction between a Share and a ShareMg?
         _sendToPrices(data)
         _sendToNews(data)
         

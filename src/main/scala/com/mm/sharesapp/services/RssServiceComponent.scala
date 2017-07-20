@@ -14,18 +14,15 @@ trait RssServiceComponent {
   
   class RssService extends com.mm.sharesapp.util.LogHelper {
 
-    private val YAHOO_URL =
-      "http://finance.yahoo.com/rss/headline?s=%s"
-
     private val dateFormat = new java.text.SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss Z")
 
     def fetchRSS(url: String): Try[scala.xml.Elem] = 
       Try(XML.load(url))
 
     def fetchDataForCompany(ticker:String, url: String): Seq[RssFeedData] = {
-      logger.debug(s"Fetching data from URL $url")
+      logger.info(s"Fetching data from URL $url")
       fetchRSS(url) match {
-        case Success(xmlElem) => logger.info("Success, we got something..");buildRssData(ticker, xmlElem)
+        case Success(xmlElem) => logger.info(s"Success, we got something for $url");buildRssData(ticker, xmlElem)
         case Failure(exception) => logger.info("Nohting returned...");Seq[RssFeedData]()
       }
     }

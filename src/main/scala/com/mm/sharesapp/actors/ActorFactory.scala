@@ -9,30 +9,32 @@ import akka.actor._
 
 trait ActorFactorComponent {
   
-  val actorFactory  = FakeActorFactory
+  val actorFactory  = RealActorFactory
 }
 
 
-object FakeActorFactory  {
+object RealActorFactory  {
   
   trait RealSharePriceComponent extends SharePriceComponent with DataDownloaderComponent
+  trait RealPersistenceServiceComponent extends SquerylPersistenceServiceComponent
   class RealSharesRouterActor(sharePriceActor:ActorRef, newsActor:ActorRef) 
         extends SharesRouterActor(sharePriceActor, newsActor) with SharesMapperComponent
   // Fake actors
-  class FakePersistenceActor extends PersistenceActor with SquerylPersistenceServiceComponent
-  class FakeRssActor(destinationActor:ActorRef) extends RssActor(destinationActor) with RssServiceComponent
-  class FakeStaticNewsActor(destinationActor:ActorRef) extends StaticNewsActor(destinationActor)
-        with FakePersistenceServiceComponent
-  class FakeSharePriceActor(destinationActor:ActorRef) extends SharePriceActor(destinationActor) with  RealSharePriceComponent   
-  class FakeCakeRouterActor(routees:Seq[ActorRef]) extends CakeRouterActor(routees) with SquerylPersistenceServiceComponent
+  class RealPersistenceActor extends PersistenceActor with RealPersistenceServiceComponent
+  class RealRssActor(destinationActor:ActorRef) extends RssActor(destinationActor) with RssServiceComponent
+  class RealStaticNewsActor(destinationActor:ActorRef) extends StaticNewsActor(destinationActor)
+        with RealPersistenceServiceComponent
+  class RealSharePriceActor(destinationActor:ActorRef) extends SharePriceActor(destinationActor) with  RealSharePriceComponent   
+  class RealCakeRouterActor(routees:Seq[ActorRef]) extends CakeRouterActor(routees) 
+        with RealPersistenceServiceComponent
   
   def shareRouterActor(sharePriceActor:ActorRef, newsActor:ActorRef):Props = 
           Props(new RealSharesRouterActor(sharePriceActor, newsActor))
   
-  def persistenceActor = Props(new FakePersistenceActor())
-  def staticNewsActor(destination:ActorRef) = Props(new FakeStaticNewsActor(destination))
-  def rssActor(destination:ActorRef) = Props(new FakeRssActor(destination))
-  def sharePriceActor(destination:ActorRef) = Props(new FakeSharePriceActor(destination))
-  def cakeRouterActor(routees:Seq[ActorRef]) = Props(new FakeCakeRouterActor(routees))
+  def persistenceActor = Props(new RealPersistenceActor())
+  def staticNewsActor(destination:ActorRef) = Props(new RealStaticNewsActor(destination))
+  def rssActor(destination:ActorRef) = Props(new RealRssActor(destination))
+  def sharePriceActor(destination:ActorRef) = Props(new RealSharePriceActor(destination))
+  def cakeRouterActor(routees:Seq[ActorRef]) = Props(new RealCakeRouterActor(routees))
   
 }

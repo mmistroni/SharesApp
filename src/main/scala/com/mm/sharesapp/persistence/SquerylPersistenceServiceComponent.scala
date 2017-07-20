@@ -7,7 +7,7 @@ trait SquerylPersistenceServiceComponent extends PersistenceServiceComponent {
   
   val persistenceService  = new SquerylPersistenceService()
   
-  class SquerylPersistenceService extends PersistenceService with DBConnector{
+  class SquerylPersistenceService extends PersistenceService with MySqlConnector{
     
     import SharesSchema._
     

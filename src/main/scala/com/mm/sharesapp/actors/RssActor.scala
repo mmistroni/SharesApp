@@ -16,12 +16,12 @@ class RssActor(destination: ActorRef) extends Actor with ActorLogging{
       def receive = {
 
         case RSSRequest(ticker, url) =>
-          log.debug("fetching rss for share....")
+          log.info("fetching rss for share:" + ticker)
           val rssData = rssService.fetchDataForCompany(ticker, url)
-          log.debug(s"We got ${rssData.size} news for $url") 
+          log.info(s"We got ${rssData.size} news for $url") 
           rssData.foreach(rssMessage =>
               {
-                log.debug("sending to persistence.");  
+                log.debug("sending to persistence:" + rssMessage);  
                 destination ! rssMessage 
               })
           

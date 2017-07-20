@@ -7,7 +7,7 @@ import java.sql.Timestamp
 import com.mm.sharesapp.persistence.SharesSchema._
 import com.mm.sharesapp.persistence.entities.EdgarNews
 
-object SquerylDbApp extends App  with com.mm.sharesapp.persistence.DBConnector {
+object SquerylDbApp extends App  with com.mm.sharesapp.persistence.MySqlConnector {
   
   println("Startig Squeryl applicatin...")
   

@@ -14,8 +14,10 @@ class StaticNewsActor(rssActorRef:ActorRef) extends Actor  with ActorLogging{
     def receive = {
 
       case AllShares(_) =>
-        log.info("Fetching Static Shares.....")
-        val allRssData = fetchAll.map { rssFeed => RSSRequest(ticker=rssFeed.description, url=rssFeed.feedUrl) }
+        log.info("Fetching Static Shares....." )
+        val rss = fetchAll
+        log.info("got:" +fetchAll.mkString("\n"))
+        val allRssData = rss.map { rssFeed => RSSRequest(ticker=rssFeed.description, url=rssFeed.feedUrl) }
         log.info(s"We got ${allRssData.size} news")
         allRssData.foreach { rssRequest => rssActorRef ! rssRequest }
         

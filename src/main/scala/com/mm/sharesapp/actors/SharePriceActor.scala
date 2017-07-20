@@ -21,6 +21,7 @@ class SharePriceActor(destination: ActorRef) extends Actor with ActorLogging{
             case None        => log.info(s"Unable to fetch data for ${share.ticker}")
           }
           
+          
         case message => log.info(s"SharePriceActorsUnexpected msg:$message")
     }
 

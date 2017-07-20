@@ -24,7 +24,7 @@ trait SharesMapperComponent extends MapperComponent {
   
   object ShareToUrlMapper extends Mapper{
   
-    private val sharesUrls = Seq("http://finance.yahoo.com/rss/headline?s=<share>")
+    private val sharesUrls = Seq("https://feeds.finance.yahoo.com/rss/2.0/headline?s=<share>")
   
     def map(ticker:String):Seq[String] = {
       sharesUrls.map(url => url.replace("<share>", ticker))
