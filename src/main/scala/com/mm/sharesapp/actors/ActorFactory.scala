@@ -7,13 +7,7 @@ import com.mm.sharesapp.services.SharePriceComponent
 import akka.actor._
 
 
-trait ActorFactorComponent {
-  
-  val actorFactory  = RealActorFactory
-}
-
-
-object RealActorFactory  {
+trait ActorFactory  {
   
   trait RealSharePriceComponent extends SharePriceComponent with DataDownloaderComponent
   trait RealPersistenceServiceComponent extends SquerylPersistenceServiceComponent
@@ -28,13 +22,5 @@ object RealActorFactory  {
   class RealCakeRouterActor(routees:Seq[ActorRef]) extends CakeRouterActor(routees) 
         with RealPersistenceServiceComponent
   
-  def shareRouterActor(sharePriceActor:ActorRef, newsActor:ActorRef):Props = 
-          Props(new RealSharesRouterActor(sharePriceActor, newsActor))
-  
-  def persistenceActor = Props(new RealPersistenceActor())
-  def staticNewsActor(destination:ActorRef) = Props(new RealStaticNewsActor(destination))
-  def rssActor(destination:ActorRef) = Props(new RealRssActor(destination))
-  def sharePriceActor(destination:ActorRef) = Props(new RealSharePriceActor(destination))
-  def cakeRouterActor(routees:Seq[ActorRef]) = Props(new RealCakeRouterActor(routees))
-  
+   
 }
