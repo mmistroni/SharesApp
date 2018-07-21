@@ -116,3 +116,20 @@ case class RssFeedData(ticker:String,
           "test titel", "test desc",
           "test link", "test content")
 }
+
+
+case class MarketBreadth(advancing:Integer, declining:Integer)
+
+case class NYSEShares(shares:List[String])
+
+case class DownloadNYSEData(url:String)
+
+case object NYSEMessage
+
+
+case class StockData(latestPrice: Double, 
+                     previousClose: Double, 
+                     companyName: String,
+                     symbol: String)
+                     
+

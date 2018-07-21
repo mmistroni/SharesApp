@@ -16,7 +16,7 @@ class PersistenceActor extends Actor with ActorLogging {
 
     case rssFeedData: RssFeedData => {
       log.info("Storing rss.. for:" + rssFeedData.description)
-      persistenceService.insertRssFeedData(rssFeedData)
+      //persistenceService.insertRssFeedData(rssFeedData)
     }
 
     case sharePrice: SharePrice => {

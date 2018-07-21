@@ -4,7 +4,7 @@
 		module="sharesapp-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170718221134"
+		publication="20171113213711"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

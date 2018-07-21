@@ -78,6 +78,8 @@ class PersistenceActorTest extends TestKit(ActorSystem("testSystem")) with Impli
                    Mockito.times(1)).insertSharePrice(mockSharePrice)
   }
 
+  /**
+   * suspended for the moment
   "A PersistenceActorTest" should "call PersistenceService to persist RssFeedData" in {
 
     class MockPersistenceActor extends PersistenceActor 
@@ -96,5 +98,5 @@ class PersistenceActorTest extends TestKit(ActorSystem("testSystem")) with Impli
                    Mockito.times(1)).insertRssFeedData(mockRssFeedData)
   }
 
-
+  **/
 }

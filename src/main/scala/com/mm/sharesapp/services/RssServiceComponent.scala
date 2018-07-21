@@ -33,16 +33,35 @@ trait RssServiceComponent {
       results.toSeq
     }
     
+    def filterOldDate(input:Seq[RssFeedData]):Seq[RssFeedData] = {
+      val calendar = java.util.Calendar.getInstance()
+      calendar.add(java.util.Calendar.DAY_OF_MONTH, -1)
+      val yesterday = new java.sql.Timestamp(calendar.getTime().getTime())
+      input.filter(rss => rss.date.after(yesterday))
+      
+    }
+    
+    
+    private def isEmpty(x: String) = x == null || x.trim.isEmpty
+    
+    private def normalizeString(input:String) = {
+      input match {
+        case emt if isEmpty(emt) => "N.A"
+        case valid => valid
+      }
+    }
+    
+    
     private def createRssData(ticker:String, xmlRoot:scala.xml.Node):Option[RssFeedData]= {
       Try {
             RssFeedData(ticker,
               new java.sql.Timestamp(
                 if ((xmlRoot \\ "pubDate").text.length > 0) 
                   dateFormat.parse((xmlRoot \\ "pubDate").text).getTime() else new java.util.Date().getTime()),
-              (xmlRoot \\ "title").text,
-              (xmlRoot \\ "content").text,
-              (xmlRoot \\ "description").text,
-              (xmlRoot \\ "link").text)
+              normalizeString((xmlRoot \\ "title").text) ,
+              normalizeString((xmlRoot \\ "content").text),
+              normalizeString((xmlRoot \\ "description").text),
+              normalizeString((xmlRoot \\ "link").text))
            }.toOption
     }
     

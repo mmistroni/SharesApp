@@ -48,7 +48,9 @@ libraryDependencies +=  "org.squeryl" %% "squeryl" % "0.9.8"
 libraryDependencies +=	"mysql" % "mysql-connector-java" % "5.1.10"
 //libraryDependencies +=  "com.h2database" % "h2" % "1.2.127" % "test"
 libraryDependencies +=  "org.apache.derby" % "derby" % "10.7.1.1" % "test"  
-
+libraryDependencies +=  "com.rometools" % "rome" % "1.9.0" 
+libraryDependencies += "org.apache.httpcomponents" % "httpclient" % "4.5.2"
+libraryDependencies += "org.json4s" % "json4s-native_2.11" % "3.3.0"
 unmanagedJars in Compile ++= {
   val libs = baseDirectory.value / "lib"
   ((libs) ** "*.jar").classpath
